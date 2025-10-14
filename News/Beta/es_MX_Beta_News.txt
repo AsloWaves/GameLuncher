@@ -1,0 +1,115 @@
+{
+   "ProjectName":"Game Launcher",
+   "Language":"es_MX",
+   "Environment":"Release",
+   "Region":"Any",
+   "ServerStatus":"Online",
+   "ReportBugURL":"https://game-launcher.net/",
+   "Alerts":[
+      {
+         "type":"Information",
+         "date":"2022-01-08T00:00:00.000Z",
+         "title": "Mantenimiento de Servidor",
+         "message":"Mantenimiento a las 12:00 UTC. El servidor no estará disponible por un tiempo.",
+         "showAfterDate":"2022-01-08T00:00:00.000Z",
+         "interactionURL":"https://game-launcher.net/"
+      }
+   ],
+   "News":[
+      {
+         "header":"ÚLTIMAS NOTICIAS",
+         "title":"PARCHE 1.0.1",
+         "subtitle":"YA DISPONIBLE",
+         "subtitleColor":"",
+         "date":"2022-01-08T00:00:00.000Z",
+         "imagesURL":[
+            "https://i.ibb.co/bPFnF3z/Game-Launcher-Complete-Logo.png"
+         ],
+         "videoURL":"https://www.youtube.com/watch?v=mG4R3WN8PJs",
+         "interactionURL":"https://game-launcher.net/",
+         "content":"Se han agregado nuevas funciones al juego\n\nuevos campeones\nuevas cartas\\en\\¡Lee la información completa del parche a continuación!",
+         "buttonContent":"Más información...",
+         "showHeader":true,
+         "showTitle":true,
+         "showSubTitle":true,
+         "showContent":true,
+         "showDate":true,
+         "showButton":true,
+         "showVideo":false
+      },
+      {
+         "header":"ÚLTIMAS NOTICIAS",
+         "title":"PARCHE 1.0.1",
+         "subtitle":"YA DISPONIBLE",
+         "subtitleColor":"",
+         "date":"2022-01-08T00:00:00.000Z",
+         "imagesURL":[
+            "https://i.ibb.co/bPFnF3z/Game-Launcher-Complete-Logo.png"
+         ],
+         "videoURL":"https://www.youtube.com/watch?v=mG4R3WN8PJs",
+         "interactionURL":"https://game-launcher.net/",
+         "content":"Se han agregado nuevas funciones al juego\n\nuevos campeones\nuevas cartas\\en\\¡Lee la información completa del parche a continuación!",
+         "buttonContent":"Más información...",
+         "showHeader":true,
+         "showTitle":true,
+         "showSubTitle":true,
+         "showContent":true,
+         "showDate":true,
+         "showButton":true,
+         "showVideo":false
+      },
+      {
+         "header":"ÚLTIMAS NOTICIAS",
+         "title":"PARCHE 1.0.1",
+         "subtitle":"YA DISPONIBLE",
+         "subtitleColor":"",
+         "date":"2022-01-08T00:00:00.000Z",
+         "imagesURL":[
+            "https://i.ibb.co/bPFnF3z/Game-Launcher-Complete-Logo.png"
+         ],
+         "videoURL":"https://www.youtube.com/watch?v=mG4R3WN8PJs",
+         "interactionURL":"https://game-launcher.net/",
+         "content":"Se han agregado nuevas funciones al juego\n\nuevos campeones\nuevas cartas\\en\\¡Lee la información completa del parche a continuación!",
+         "buttonContent":"Más información...",
+         "showHeader":true,
+         "showTitle":true,
+         "showSubTitle":true,
+         "showContent":true,
+         "showDate":true,
+         "showButton":true,
+         "showVideo":false
+      }
+   ],
+   "SubNews":[
+      {
+         "title":"NOTAS DEL PARCHE",
+         "date":"2022-01-08T00:00:00.000Z",
+         "imageURL":"https://i.ibb.co/3FLwhm3/Game-Launcher-Complete-Logo-No-Background-2.png",
+         "content":"Primer lanzamiento de Game Launcher",
+         "interactionURL":"https://game-launcher.net/",
+         "showTitle":true,
+         "showContent":true,
+         "showDate":false
+      },
+      {
+         "title":"NOTICIAS",
+         "date":"2022-01-08T00:00:00.000Z",
+         "imageURL":"https://i.ibb.co/bPFnF3z/Game-Launcher-Complete-Logo.png",
+         "content":"Disponible en Unity Asset Store",
+         "interactionURL":"https://game-launcher.net/",
+         "showTitle":true,
+         "showContent":true,
+         "showDate":true
+      },
+      {
+         "title":"DOCUMENTACIÓN",
+         "date":"2022-01-08T00:00:00.000Z",
+         "imageURL":"https://i.ibb.co/6XwtC3L/Game-Launcher-Photo.png",
+         "content":"Documentación animada y paso a paso",
+         "interactionURL":"https://game-launcher.net/",
+         "showTitle":true,
+         "showContent":true,
+         "showDate":true
+      }
+   ]
+}
