@@ -108,6 +108,26 @@
             background: transparent;
             color: #495057;
         }
+
+        .url-box {
+            background: #fff3cd;
+            border: 1px solid #ffc107;
+            border-radius: 6px;
+            padding: 15px;
+            margin: 20px 0;
+        }
+
+        .url-box strong {
+            color: #856404;
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .url-box code {
+            background: white;
+            color: #856404;
+            font-weight: 600;
+        }
     </style>
 </head>
 <body>
@@ -119,21 +139,26 @@
             Online and serving content
         </div>
 
+        <div class="url-box">
+            <strong>📍 HOST_URL for Launcher & Patch Manager:</strong>
+            <code>https://aslowaves.github.io/game-launcher-cdn/GameLauncher/</code>
+        </div>
+
         <h2>📡 Available Endpoints</h2>
         <div class="endpoint">
-            <code>/Launcher/VersionInfo.info</code> - Launcher version metadata
+            <code>/GameLauncher/Launcher/VersionInfo.info</code> - Launcher version metadata
         </div>
         <div class="endpoint">
-            <code>/App/Release/VersionInfo.info</code> - Release app version
+            <code>/GameLauncher/App/Release/VersionInfo.info</code> - Release app version
         </div>
         <div class="endpoint">
-            <code>/App/Beta/VersionInfo.info</code> - Beta app version
+            <code>/GameLauncher/App/Beta/VersionInfo.info</code> - Beta app version
         </div>
         <div class="endpoint">
-            <code>/News/Release/en_US_Release_News.txt</code> - English news (Release)
+            <code>/GameLauncher/News/Release/en_US_Release_News.txt</code> - English news (Release)
         </div>
         <div class="endpoint">
-            <code>/News/Beta/en_US_Beta_News.txt</code> - English news (Beta)
+            <code>/GameLauncher/News/Beta/en_US_Beta_News.txt</code> - English news (Beta)
         </div>
 
         <h2>🌍 Languages Supported</h2>
