@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<VersionInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BaseDownloadURL />
+  <MaintenanceCheckURL />
+  <Version>1.0.0</Version>
+  <Patches />
+  <InstallerPatch CompressionFormat="NONE" PatchSize="67993600" PatchMd5Hash="0db2d2b8278d1171b739303b7a5ea6f2" DownloadURL="" />
+  <IgnoredPaths>
+    <string>*patcher_log.txt</string>
+    <string>*output_log.txt</string>
+  </IgnoredPaths>
+  <CompressionFormat>NONE</CompressionFormat>
+  <Files />
+  <Name>Launcher</Name>
+</VersionInfo>

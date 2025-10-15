@@ -1,0 +1,135 @@
+{
+    "ProjectName": "Game Launcher",
+    "Language": "en_US",
+    "Environment": "Release",
+    "Region": "Any",
+    "ServerStatus": "Online",
+    "MyAccountURL": "https://game-launcher.net/",
+    "WebpageURL": "https://game-launcher.net/",
+    "PatchNotesURL": "https://game-launcher.net/",
+    "TermsOfServiceURL": "https://game-launcher.net/",
+    "PrivacyPolicyURL": "https://game-launcher.net/",
+    "NewsCurrentURL": "",
+    "ReportBugURL": "https://game-launcher.net/",
+    "Alerts": [
+        {
+            "type": "Warning",
+            "date": "2023-02-22T00:12:31.0784794-06:00",
+            "showAfterDate": "2022-12-14T10:11:00.0000000",
+            "showAfterDateBool": false,
+            "title": "Server Maintenance",
+            "message": "Maintenance at 12:00 UTC. The server will be unavailable for a while.",
+            "interactionURL": "https://game-launcher.net/"
+        }
+    ],
+    "News": [
+        {
+            "header": "OVERVIEW",
+            "title": "GAME LAUNCHER",
+            "subtitle": "NOW AVAILABLE",
+            "subtitleColor": "",
+            "date": "2022-01-08T00:00:00.0000000",
+            "imagesURL": [
+                "https://i.ibb.co/bPFnF3z/Game-Launcher-Complete-Logo.png"
+            ],
+            "videoURL": "https://www.youtube.com/watch?v=FhiilefzooU",
+            "interactionURL": "https://game-launcher.net/",
+            "content": "Includes a complete customizable UI to display your News, Changelog, Alerts, Server Status, or Promotions!\n\nBinary Diff Patches\r\nCreate small patches only with the differences between two versions.\r\n\r\nThis will reduce the download sizes and bandwidth usage by 90%!\r\n\r\nNews/Feed And Alerts\r\nThe launcher can show information about your game/app.\r\n\r\nShow your server status, patch info, changelog, and make alerts or promotions!\r\n\r\nSupports multi-language!\r\n\r\nRepair\r\nThe launcher can repair itself and your game/app files!\r\n\r\nSelf-Update\r\nThe launcher can update itself, so you can launch updates to your launcher too!\r\n\r\nManage Various Environments\r\nThe launcher can manage various environments of an app/game at the same time.\r\n\r\nChange between the Public Release and Public Beta environment and apply patches and updates for each one!\r\n\r\nThis includes showing localized News/Feed and Alerts for each one!\r\n\r\nMulti-Language Support\r\nThe launcher can show information about your game/app.\r\n\r\nShow your server status, patch info, changelog, and make alerts or promotions!\r\n\r\nSupports multi-language!\r\n\r\nGoogle Drive / Server Host\r\nThe launcher is designed to easily download your updates from your preferred host!\r\n\r\nCustomizable\r\nCustomize your Launcher applying your own Background, Logo, or by buying a Custom Skin!\r\n\r\nAnimated\r\nThe launcher has animations!\r\n\r\nExpandable\r\nExtend the launcher with your own features!\r\n\r\nEasy To Use\r\nWith a few clicks your Patch/Update will be deployed\r\n\r\nWell Documented\r\nStep by step guided with animated GIF documentation",
+            "buttonContent": "More info...",
+            "showHeader": true,
+            "showTitle": true,
+            "showSubTitle": true,
+            "subtitleCustomColor": false,
+            "showContent": true,
+            "showDate": true,
+            "showButton": true,
+            "showVideo": true
+        },
+        {
+            "header": "LASTEST NEWS",
+            "title": "CUSTOMIZABLE LAUNCHER",
+            "subtitle": "CUSTOMIZABLE",
+            "subtitleColor": "FF00F8",
+            "date": "2022-01-08T00:00:00.0000000",
+            "imagesURL": [
+                "https://i.ibb.co/K7xHSVc/Screenshot-Customizable-Launcher.png"
+            ],
+            "videoURL": "https://www.youtube.com/watch?v=mG4R3WN8PJs",
+            "interactionURL": "https://game-launcher.net/",
+            "content": "Customize your Launcher applying your own Background, \nLogo, or by buying a Custom Skin!",
+            "buttonContent": "More info...",
+            "showHeader": false,
+            "showTitle": true,
+            "showSubTitle": true,
+            "subtitleCustomColor": true,
+            "showContent": true,
+            "showDate": false,
+            "showButton": false,
+            "showVideo": false
+        },
+        {
+            "header": ".NET ",
+            "title": "FEATURES",
+            "subtitle": "C#, .NET Core & WPF Integration",
+            "subtitleColor": "FBCE02",
+            "date": "2022-01-08T00:00:00.0000000",
+            "imagesURL": [
+                "https://i.ibb.co/xg4QhHB/Screenshot-Launcher-Window-Features.png"
+            ],
+            "videoURL": "https://www.youtube.com/watch?v=mG4R3WN8PJs",
+            "interactionURL": "https://game-launcher.net/",
+            "content": "Includes a complete customizable UI to display your News, Changelog, Alerts, Server Status, or Promotions!",
+            "buttonContent": "More info...",
+            "showHeader": false,
+            "showTitle": true,
+            "showSubTitle": true,
+            "subtitleCustomColor": true,
+            "showContent": true,
+            "showDate": true,
+            "showButton": false,
+            "showVideo": false
+        }
+    ],
+    "SubNews": [
+        {
+            "title": "PATCH NOTES",
+            "date": "2022-01-08T00:00:00.000Z",
+            "imageURL": "https://i.ibb.co/3FLwhm3/Game-Launcher-Complete-Logo-No-Background-2.png",
+            "interactionURL": "https://game-launcher.net/",
+            "content": "First release of Game Launcher",
+            "showTitle": true,
+            "showContent": false,
+            "showDate": false
+        },
+        {
+            "title": "NOTICES",
+            "date": "2022-01-08T00:00:00.0000000",
+            "imageURL": "https://i.ibb.co/bPFnF3z/Game-Launcher-Complete-Logo.png",
+            "interactionURL": "https://game-launcher.net/",
+            "content": "Available in Unity Asset Store",
+            "showTitle": true,
+            "showContent": true,
+            "showDate": false
+        },
+        {
+            "title": "DOCUMENTATION",
+            "date": "2022-01-08T00:00:00.0000000",
+            "imageURL": "https://i.ibb.co/6XwtC3L/Game-Launcher-Photo.png",
+            "interactionURL": "https://game-launcher.net/",
+            "content": "Animated and Step by step documentation",
+            "showTitle": true,
+            "showContent": true,
+            "showDate": true
+        },
+        {
+            "title": "Get it now in Unity Asset Store",
+            "date": "2023-01-06T20:43:07.2447257Z",
+            "imageURL": "https://i.ibb.co/bPFnF3z/Game-Launcher-Complete-Logo.png",
+            "interactionURL": "https://game-launcher.net/",
+            "content": "",
+            "showTitle": true,
+            "showContent": true,
+            "showDate": false
+        }
+    ]
+}
