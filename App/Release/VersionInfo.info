@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <VersionInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <BaseDownloadURL>https://aslowaves.github.io/GameLuncher/App/Release/</BaseDownloadURL>
+  <BaseDownloadURL>https://aslogamelauncher.netlify.app/App/Release/</BaseDownloadURL>
   <Environment>Release</Environment>
   <AppName />
   <MaintenanceCheckURL />
-  <Version>1.0.0</Version>
-  <Patches />
+  <Version>1.0.2</Version>
+  <Patches>
+    <IncrementalPatch Files="316" CompressionFormat="NONE" PatchSize="257689600" PatchMd5Hash="3d0e9d20e2c8b03dc9f44b0752d4e770" InfoURL="" DownloadURL="">
+      <FromVersion>1.0.1</FromVersion>
+      <ToVersion>1.0.2</ToVersion>
+    </IncrementalPatch>
+  </Patches>
   <InstallerPatch CompressionFormat="LZMA" PatchSize="0" PatchMd5Hash="" DownloadURL="" />
   <IgnoredPaths>
     <string>*patcher_log.txt</string>
