@@ -1,15 +1,22 @@
-<?xml version="1.0"?>
-<VersionInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <BaseDownloadURL />
+<?xml version="1.0" encoding="utf-8"?>
+<VersionInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BaseDownloadURL>https://aslowaves.github.io/GameLuncher/Launcher/</BaseDownloadURL>
+  <Environment>Release</Environment>
+  <AppName />
   <MaintenanceCheckURL />
   <Version>1.0.0</Version>
   <Patches />
-  <InstallerPatch CompressionFormat="NONE" PatchSize="67993600" PatchMd5Hash="0db2d2b8278d1171b739303b7a5ea6f2" DownloadURL="" />
+  <InstallerPatch CompressionFormat="LZMA" PatchSize="0" PatchMd5Hash="" DownloadURL="" />
   <IgnoredPaths>
     <string>*patcher_log.txt</string>
     <string>*output_log.txt</string>
   </IgnoredPaths>
   <CompressionFormat>NONE</CompressionFormat>
-  <Files />
+  <Files>
+    <VersionItem Path="GameLauncher.exe" FileSize="198404422" Md5Hash="b304289952eb05bf2775f7ff7b8456b0" CompressedFileSize="198404422" CompressedMd5Hash="b304289952eb05bf2775f7ff7b8456b0" DownloadURL="" />
+    <VersionItem Path="SelfUpdater\SelfPatcher.exe" FileSize="91136" Md5Hash="89217d56f3cc22cecbb11821f49e2c9f" CompressedFileSize="91136" CompressedMd5Hash="89217d56f3cc22cecbb11821f49e2c9f" DownloadURL="" />
+    <VersionItem Path="SelfUpdater\SelfPatcher.exe.config" FileSize="131" Md5Hash="5887b2878224040e99e1e44787287480" CompressedFileSize="131" CompressedMd5Hash="5887b2878224040e99e1e44787287480" DownloadURL="" />
+    <VersionItem Path="SelfUpdater\SelfPatcherCore.dll" FileSize="8704" Md5Hash="e6f47d8c9b42a556821335885c74ed31" CompressedFileSize="8704" CompressedMd5Hash="e6f47d8c9b42a556821335885c74ed31" DownloadURL="" />
+  </Files>
   <Name>Launcher</Name>
 </VersionInfo>
