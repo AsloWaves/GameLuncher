@@ -1,26 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <VersionInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <BaseDownloadURL>https://aslogamelauncher.netlify.app/Launcher/</BaseDownloadURL>
+  <BaseDownloadURL>https://aslogamelauncher.netlify.app/App/Release/</BaseDownloadURL>
   <Environment>Release</Environment>
   <AppName />
   <MaintenanceCheckURL />
-  <Version>1.0.1</Version>
+  <Version>1.0.3</Version>
   <Patches>
-    <IncrementalPatch Files="0" CompressionFormat="NONE" PatchSize="10240" PatchMd5Hash="1276481102f218c981e0324180bafd9f" InfoURL="" DownloadURL="">
-      <FromVersion>1.0.0</FromVersion>
-      <ToVersion>1.0.1</ToVersion>
+    <IncrementalPatch Files="316" CompressionFormat="NONE" PatchSize="257689600" PatchMd5Hash="3d0e9d20e2c8b03dc9f44b0752d4e770" InfoURL="" DownloadURL="">
+      <FromVersion>1.0.1</FromVersion>
+      <ToVersion>1.0.2</ToVersion>
+    </IncrementalPatch>
+    <IncrementalPatch Files="1" CompressionFormat="NONE" PatchSize="90920960" PatchMd5Hash="f07bbf6b94965c422fc666ec0bc5e68b" InfoURL="" DownloadURL="">
+      <FromVersion>1.0.2</FromVersion>
+      <ToVersion>1.0.3</ToVersion>
     </IncrementalPatch>
   </Patches>
   <InstallerPatch CompressionFormat="LZMA" PatchSize="0" PatchMd5Hash="" DownloadURL="" />
   <IgnoredPaths>
     <string>*patcher_log.txt</string>
     <string>*output_log.txt</string>
+    <string>SelfUpdater\</string>
   </IgnoredPaths>
   <CompressionFormat>NONE</CompressionFormat>
   <Files>
-    <VersionItem Path="GameLauncher.exe" FileSize="198404422" Md5Hash="b304289952eb05bf2775f7ff7b8456b0" CompressedFileSize="198404422" CompressedMd5Hash="b304289952eb05bf2775f7ff7b8456b0" DownloadURL="" />
-    <VersionItem Path="SelfUpdater\SelfPatcher.exe" FileSize="91136" Md5Hash="89217d56f3cc22cecbb11821f49e2c9f" CompressedFileSize="91136" CompressedMd5Hash="89217d56f3cc22cecbb11821f49e2c9f" DownloadURL="" />
-    <VersionItem Path="SelfUpdater\SelfPatcherCore.dll" FileSize="8704" Md5Hash="e6f47d8c9b42a556821335885c74ed31" CompressedFileSize="8704" CompressedMd5Hash="e6f47d8c9b42a556821335885c74ed31" DownloadURL="" />
+    <VersionItem Path="GameLauncher.exe" FileSize="90916172" Md5Hash="12e80c6af4d451c8743b3452a6970e9d" CompressedFileSize="90916172" CompressedMd5Hash="12e80c6af4d451c8743b3452a6970e9d" DownloadURL="" />
   </Files>
-  <Name>Launcher</Name>
+  <Name>App</Name>
 </VersionInfo>
