@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PatchInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <RenamedFiles />
+  <Files>
+    <PatchItem Path="WOS_Data\boot.config" BeforeFileSize="435" BeforeMd5Hash="c7a414e6aec9c337793cc299061424d6" AfterFileSize="377" AfterMd5Hash="11df2515f2c8545a16bb417899bc3c37" />
+    <PatchItem Path="WOS_Data\level0" BeforeFileSize="86320" BeforeMd5Hash="e506a5e193f6b2f518fceefbccd71506" AfterFileSize="86320" AfterMd5Hash="0cc49e6dad34b6f8e3993d805b0d4b6e" />
+    <PatchItem Path="WOS_Data\sharedassets0.assets" BeforeFileSize="787004" BeforeMd5Hash="1417e35fe72e17a377f12d6ffad1dd0b" AfterFileSize="787020" AfterMd5Hash="6567039d350c495fb4e6d8881ecc3124" />
+  </Files>
+</PatchInfo>
