@@ -4,11 +4,11 @@
   <Environment>Release</Environment>
   <AppName />
   <MaintenanceCheckURL />
-  <Version>1.0.2</Version>
+  <Version>1.0.1</Version>
   <Patches>
-    <IncrementalPatch Files="316" CompressionFormat="NONE" PatchSize="257689600" PatchMd5Hash="3d0e9d20e2c8b03dc9f44b0752d4e770" InfoURL="" DownloadURL="">
-      <FromVersion>1.0.1</FromVersion>
-      <ToVersion>1.0.2</ToVersion>
+    <IncrementalPatch Files="17" CompressionFormat="NONE" PatchSize="8929280" PatchMd5Hash="de987e47917a6f3ad1cb5ad20a332782" InfoURL="" DownloadURL="">
+      <FromVersion>1.0.0</FromVersion>
+      <ToVersion>1.0.1</ToVersion>
     </IncrementalPatch>
   </Patches>
   <InstallerPatch CompressionFormat="LZMA" PatchSize="0" PatchMd5Hash="" DownloadURL="" />
@@ -45,23 +45,27 @@
     <VersionItem Path="MonoBleedingEdge\etc\mono\4.5\web.config" FileSize="18811" Md5Hash="5075af18fe1d2b5f9555d5cc68029814" CompressedFileSize="18811" CompressedMd5Hash="5075af18fe1d2b5f9555d5cc68029814" DownloadURL="" />
     <VersionItem Path="MonoBleedingEdge\etc\mono\4.5\Browsers\Compat.browser" FileSize="1605" Md5Hash="0d831c1264b5b32a39fa347de368fe48" CompressedFileSize="1605" CompressedMd5Hash="0d831c1264b5b32a39fa347de368fe48" DownloadURL="" />
     <VersionItem Path="MonoBleedingEdge\etc\mono\mconfig\config.xml" FileSize="25817" Md5Hash="f34b330f20dce1bdcce9058fca287099" CompressedFileSize="25817" CompressedMd5Hash="f34b330f20dce1bdcce9058fca287099" DownloadURL="" />
+    <VersionItem Path="WOS_BurstDebugInformation_DoNotShip\Data\Plugins\x86_64\lib_burst_generated.txt" FileSize="215694" Md5Hash="cf6004fa14527df99514210599d3fbdb" CompressedFileSize="215694" CompressedMd5Hash="cf6004fa14527df99514210599d3fbdb" DownloadURL="" />
     <VersionItem Path="WOS_Data\app.info" FileSize="12" Md5Hash="262a14a976404e6b5822f42e4c158551" CompressedFileSize="12" CompressedMd5Hash="262a14a976404e6b5822f42e4c158551" DownloadURL="" />
-    <VersionItem Path="WOS_Data\boot.config" FileSize="371" Md5Hash="a101b8787a55297a130024d0c90eb28f" CompressedFileSize="371" CompressedMd5Hash="a101b8787a55297a130024d0c90eb28f" DownloadURL="" />
-    <VersionItem Path="WOS_Data\globalgamemanagers" FileSize="265780" Md5Hash="42f8d0fb8be0917eb3fccb220bc9f94e" CompressedFileSize="265780" CompressedMd5Hash="42f8d0fb8be0917eb3fccb220bc9f94e" DownloadURL="" />
-    <VersionItem Path="WOS_Data\globalgamemanagers.assets" FileSize="1436068" Md5Hash="7f108c14bb6bdd6482be8c2689f15a43" CompressedFileSize="1436068" CompressedMd5Hash="7f108c14bb6bdd6482be8c2689f15a43" DownloadURL="" />
+    <VersionItem Path="WOS_Data\boot.config" FileSize="435" Md5Hash="c7a414e6aec9c337793cc299061424d6" CompressedFileSize="435" CompressedMd5Hash="c7a414e6aec9c337793cc299061424d6" DownloadURL="" />
+    <VersionItem Path="WOS_Data\globalgamemanagers" FileSize="266420" Md5Hash="b4a794fcdeb5c37cd45525bc57da8656" CompressedFileSize="266420" CompressedMd5Hash="b4a794fcdeb5c37cd45525bc57da8656" DownloadURL="" />
+    <VersionItem Path="WOS_Data\globalgamemanagers.assets" FileSize="1437556" Md5Hash="d79c2a1e8485d98e54f01de6e476378f" CompressedFileSize="1437556" CompressedMd5Hash="d79c2a1e8485d98e54f01de6e476378f" DownloadURL="" />
     <VersionItem Path="WOS_Data\globalgamemanagers.assets.resS" FileSize="6766816" Md5Hash="608f351fbcaf00e2f211b354c0e92f55" CompressedFileSize="6766816" CompressedMd5Hash="608f351fbcaf00e2f211b354c0e92f55" DownloadURL="" />
-    <VersionItem Path="WOS_Data\level0" FileSize="19644" Md5Hash="7901fca97082a17b787fb8ab4ea140f9" CompressedFileSize="19644" CompressedMd5Hash="7901fca97082a17b787fb8ab4ea140f9" DownloadURL="" />
-    <VersionItem Path="WOS_Data\level1" FileSize="5532" Md5Hash="7ee9890fbef7ae8517d4a29050c96f4c" CompressedFileSize="5532" CompressedMd5Hash="7ee9890fbef7ae8517d4a29050c96f4c" DownloadURL="" />
-    <VersionItem Path="WOS_Data\resources.assets" FileSize="1515720" Md5Hash="f684ffdf08d888c88bdcfb8a10e03761" CompressedFileSize="1515720" CompressedMd5Hash="f684ffdf08d888c88bdcfb8a10e03761" DownloadURL="" />
-    <VersionItem Path="WOS_Data\resources.assets.resS" FileSize="73132288" Md5Hash="d652fae487885ab9c666507dc757c365" CompressedFileSize="73132288" CompressedMd5Hash="d652fae487885ab9c666507dc757c365" DownloadURL="" />
+    <VersionItem Path="WOS_Data\level0" FileSize="86320" Md5Hash="e506a5e193f6b2f518fceefbccd71506" CompressedFileSize="86320" CompressedMd5Hash="e506a5e193f6b2f518fceefbccd71506" DownloadURL="" />
+    <VersionItem Path="WOS_Data\level1" FileSize="10744" Md5Hash="80e56c16247cae1fb4241b072043ad05" CompressedFileSize="10744" CompressedMd5Hash="80e56c16247cae1fb4241b072043ad05" DownloadURL="" />
+    <VersionItem Path="WOS_Data\level2" FileSize="5484" Md5Hash="bbedafdf6cdec4ab8fdfe5b641efdd5a" CompressedFileSize="5484" CompressedMd5Hash="bbedafdf6cdec4ab8fdfe5b641efdd5a" DownloadURL="" />
+    <VersionItem Path="WOS_Data\resources.assets" FileSize="5378184" Md5Hash="bf581a85fbf5d496506b2f24dc938eda" CompressedFileSize="5378184" CompressedMd5Hash="bf581a85fbf5d496506b2f24dc938eda" DownloadURL="" />
+    <VersionItem Path="WOS_Data\resources.assets.resS" FileSize="73132288" Md5Hash="90a64ec07ceb0267ff9a5548c5b551cc" CompressedFileSize="73132288" CompressedMd5Hash="90a64ec07ceb0267ff9a5548c5b551cc" DownloadURL="" />
     <VersionItem Path="WOS_Data\RuntimeInitializeOnLoads.json" FileSize="5616" Md5Hash="aab4931ff465d0af3ff56b424827dcc2" CompressedFileSize="5616" CompressedMd5Hash="aab4931ff465d0af3ff56b424827dcc2" DownloadURL="" />
     <VersionItem Path="WOS_Data\ScriptingAssemblies.json" FileSize="4691" Md5Hash="9e0d7f33df422501a25ec2c48294935d" CompressedFileSize="4691" CompressedMd5Hash="9e0d7f33df422501a25ec2c48294935d" DownloadURL="" />
-    <VersionItem Path="WOS_Data\sharedassets0.assets" FileSize="4644656" Md5Hash="57b89f1bb6acaedb4863f45f2f9da060" CompressedFileSize="4644656" CompressedMd5Hash="57b89f1bb6acaedb4863f45f2f9da060" DownloadURL="" />
-    <VersionItem Path="WOS_Data\sharedassets0.assets.resS" FileSize="3665184" Md5Hash="34654c0734948abc2add425365360459" CompressedFileSize="3665184" CompressedMd5Hash="34654c0734948abc2add425365360459" DownloadURL="" />
-    <VersionItem Path="WOS_Data\sharedassets1.assets" FileSize="21084" Md5Hash="ac8fcf2e79c605137041a43765a85d23" CompressedFileSize="21084" CompressedMd5Hash="ac8fcf2e79c605137041a43765a85d23" DownloadURL="" />
-    <VersionItem Path="WOS_Data\sharedassets1.assets.resS" FileSize="5472" Md5Hash="5123f769ac298ac6377af7de4971112a" CompressedFileSize="5472" CompressedMd5Hash="5123f769ac298ac6377af7de4971112a" DownloadURL="" />
-    <VersionItem Path="WOS_Data\Managed\Assembly-CSharp.dll" FileSize="759296" Md5Hash="9332c5d96a3992a6a5bdc8002a7f61f7" CompressedFileSize="759296" CompressedMd5Hash="9332c5d96a3992a6a5bdc8002a7f61f7" DownloadURL="" />
-    <VersionItem Path="WOS_Data\Managed\Assembly-CSharp.pdb" FileSize="322104" Md5Hash="b4d516e22a7a032674e142b47ee9a2a7" CompressedFileSize="322104" CompressedMd5Hash="b4d516e22a7a032674e142b47ee9a2a7" DownloadURL="" />
+    <VersionItem Path="WOS_Data\sharedassets0.assets" FileSize="787004" Md5Hash="1417e35fe72e17a377f12d6ffad1dd0b" CompressedFileSize="787004" CompressedMd5Hash="1417e35fe72e17a377f12d6ffad1dd0b" DownloadURL="" />
+    <VersionItem Path="WOS_Data\sharedassets0.assets.resS" FileSize="4734240" Md5Hash="fbfb2bd308409a8412615a6302c6ad96" CompressedFileSize="4734240" CompressedMd5Hash="fbfb2bd308409a8412615a6302c6ad96" DownloadURL="" />
+    <VersionItem Path="WOS_Data\sharedassets1.assets" FileSize="14000" Md5Hash="37d9afb60d192e58bc6e47c73eb696e3" CompressedFileSize="14000" CompressedMd5Hash="37d9afb60d192e58bc6e47c73eb696e3" DownloadURL="" />
+    <VersionItem Path="WOS_Data\sharedassets1.assets.resS" FileSize="98304" Md5Hash="595c5362eae4160a34593c3ea42f9262" CompressedFileSize="98304" CompressedMd5Hash="595c5362eae4160a34593c3ea42f9262" DownloadURL="" />
+    <VersionItem Path="WOS_Data\sharedassets2.assets" FileSize="11216" Md5Hash="f81df10cf198ee62134cff2c37e51e32" CompressedFileSize="11216" CompressedMd5Hash="f81df10cf198ee62134cff2c37e51e32" DownloadURL="" />
+    <VersionItem Path="WOS_Data\sharedassets2.assets.resS" FileSize="5472" Md5Hash="5123f769ac298ac6377af7de4971112a" CompressedFileSize="5472" CompressedMd5Hash="5123f769ac298ac6377af7de4971112a" DownloadURL="" />
+    <VersionItem Path="WOS_Data\Managed\Assembly-CSharp.dll" FileSize="809472" Md5Hash="0f92eb143ddc32d3476826b41fe8b893" CompressedFileSize="809472" CompressedMd5Hash="0f92eb143ddc32d3476826b41fe8b893" DownloadURL="" />
+    <VersionItem Path="WOS_Data\Managed\Assembly-CSharp.pdb" FileSize="340096" Md5Hash="269e1137608fc0e0b4a2a5db615dfc04" CompressedFileSize="340096" CompressedMd5Hash="269e1137608fc0e0b4a2a5db615dfc04" DownloadURL="" />
     <VersionItem Path="WOS_Data\Managed\CoreInventory.dll" FileSize="186368" Md5Hash="4180886b95574aefdf2ccefd94942e16" CompressedFileSize="186368" CompressedMd5Hash="4180886b95574aefdf2ccefd94942e16" DownloadURL="" />
     <VersionItem Path="WOS_Data\Managed\CoreInventory.pdb" FileSize="117912" Md5Hash="9a01e0339b36fbd90e02c0cc4804f676" CompressedFileSize="117912" CompressedMd5Hash="9a01e0339b36fbd90e02c0cc4804f676" DownloadURL="" />
     <VersionItem Path="WOS_Data\Managed\Inputs.dll" FileSize="41472" Md5Hash="00abeb19c3a1ce75f6232d8c81f08e36" CompressedFileSize="41472" CompressedMd5Hash="00abeb19c3a1ce75f6232d8c81f08e36" DownloadURL="" />
