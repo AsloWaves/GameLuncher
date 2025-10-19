@@ -1,70 +1,170 @@
-{
-  "ProjectName": "Waves Of Steel",
-  "Language": "en_US",
-  "Environment": "Release",
-  "Region": "Any",
-  "ServerStatus": "Online",
-  "WebpageURL": "",
-  "PatchNotesURL": "",
-  "MyAccountURL": "",
-  "TermsOfServiceURL": "",
-  "PrivacyPolicyURL": "",
-  "ReportBugURL": "",
-  "Alerts": [],
-  "News": [
-    {
-      "header": "LASTEST NEWS Test",
-      "title": "PATCH 1.0.0 Test",
-      "subtitle": "NOW AVAILABLE Test",
-      "subtitleColor": "#FFFFFF",
-      "date": "2025-10-17T17:51:03.4889668-04:00",
-      "imagesURL": [
-        "https://your-server.com/image.png"
-      ],
-      "videoURL": "",
-      "interactionURL": "",
-      "content": "Game Launcher Launch Test",
-      "buttonContent": "More info...",
-      "showHeader": true,
-      "showTitle": true,
-      "showSubTitle": true,
-      "subtitleCustomColor": false,
-      "showContent": true,
-      "showDate": false,
-      "showButton": false,
-      "showVideo": false
-    }
-  ],
-  "SubNews": [
-    {
-      "title": "PATCH 1.0.0 Test 1",
-      "date": "2025-10-17T17:52:03.4495050-04:00",
-      "imageURL": "https://your-server.com/image.png",
-      "interactionURL": "PATCH NOTES Test 1",
-      "content": "First release of Game Launcher Test 1",
-      "showTitle": true,
-      "showContent": true,
-      "showDate": false
-    },
-    {
-      "title": "PATCH 1.0.0 Test 2",
-      "date": "2025-10-17T17:52:10.8147720-04:00",
-      "imageURL": "https://your-server.com/image.png",
-      "interactionURL": "PATCH NOTES 2 Test",
-      "content": "First release of Game Launcher Test 2",
-      "showTitle": true,
-      "showContent": true,
-      "showDate": false
-    },
-    {
-      "title": "PATCH 1.0.0 Test 3",
-      "date": "2025-10-17T17:52:34.8924964-04:00",
-      "imageURL": "https://your-server.com/image.png",
-      "interactionURL": "PATCH NOTES Test 3",
-      "content": "First release of Game Launcher Test 3",
-      "showTitle": true,
-      "showContent": true,
-      "showDate": false
-    }
-  ]
+﻿{
+    "ProjectName":  "Waves Of Steel",
+    "Language":  "en_US",
+    "Environment":  "Release",
+    "Region":  "Any",
+    "ServerStatus":  "Online",
+    "WebpageURL":  "",
+    "PatchNotesURL":  "",
+    "MyAccountURL":  "",
+    "TermsOfServiceURL":  "",
+    "PrivacyPolicyURL":  "",
+    "ReportBugURL":  "",
+    "Alerts":  [
+                   {
+                       "interactionURL":  "",
+                       "showAfterDate":  "2025-10-19T17:10:03.6555860-04:00",
+                       "message":  "Server maintenance scheduled for 12:00 UTC (2 hours). Expect brief disconnections during upgrade.",
+                       "type":  "Information",
+                       "date":  "2025-10-19T17:10:03.6555860-04:00",
+                       "showAfterDateBool":  false,
+                       "title":  "Server Update"
+                   },
+                   {
+                       "interactionURL":  "",
+                       "showAfterDate":  "2025-10-19T17:09:57.5876504-04:00",
+                       "message":  "Hotfix deployed! Please restart your game client to receive critical stability improvements.",
+                       "type":  "Information",
+                       "date":  "2025-10-19T17:09:57.5876504-04:00",
+                       "showAfterDateBool":  false,
+                       "title":  "Hotfix Update"
+                   }
+               ],
+    "News":  [
+                 {
+                     "header":  "LASTEST NEWS",
+                     "buttonContent":  "More info...",
+                     "showButton":  true,
+                     "date":  "2025-10-19T17:10:03.6555860-04:00",
+                     "showVideo":  true,
+                     "subtitleCustomColor":  false,
+                     "title":  "PATCH 1.0.6",
+                     "content":  "Major Server Upgrade\n\nâ€¢ New Edgegap Seattle datacenter\nâ€¢ 50% faster response times\nâ€¢ Increased player capacity to 300\nâ€¢ New ship physics engine\nâ€¢ Improved collision detection",
+                     "showTitle":  true,
+                     "interactionURL":  "https://wavesofsteel.com/blog/seattle-datacenter",
+                     "subtitleColor":  "#FFFFFF",
+                     "showContent":  true,
+                     "videoURL":  "https://youtu.be/dQw4w9WgXcQ",
+                     "showHeader":  true,
+                     "showDate":  false,
+                     "subtitle":  "SERVER UPDATE",
+                     "showSubTitle":  true,
+                     "imagesURL":  [
+                                       "https://cdn.wavesofsteel.com/banners/datacenter_upgrade.png"
+                                   ]
+                 },
+                 {
+                     "header":  "LASTEST NEWS",
+                     "buttonContent":  "More info...",
+                     "showButton":  false,
+                     "date":  "2025-10-19T17:10:01.6186131-04:00",
+                     "showVideo":  false,
+                     "subtitleCustomColor":  false,
+                     "title":  "PATCH 1.0.5",
+                     "content":  "Game Launcher Improvements\n\nâ€¢ Faster update downloads\nâ€¢ Improved news display\nâ€¢ Better error handling\nâ€¢ UI refinements",
+                     "showTitle":  true,
+                     "interactionURL":  "",
+                     "subtitleColor":  "#FFFFFF",
+                     "showContent":  true,
+                     "videoURL":  "",
+                     "showHeader":  true,
+                     "showDate":  false,
+                     "subtitle":  "LAUNCHER UPDATE",
+                     "showSubTitle":  true,
+                     "imagesURL":  [
+                                       "https://your-server.com/image.png"
+                                   ]
+                 },
+                 {
+                     "header":  "LASTEST NEWS",
+                     "buttonContent":  "More info...",
+                     "showButton":  false,
+                     "date":  "2025-10-19T17:09:59.6023741-04:00",
+                     "showVideo":  false,
+                     "subtitleCustomColor":  false,
+                     "title":  "PATCH 1.0.5",
+                     "content":  "UI Polish \u0026 Quality of Life\n\nâ€¢ Improved menu animations\nâ€¢ Added keyboard shortcuts\nâ€¢ Better error messages\nâ€¢ Minor visual improvements",
+                     "showTitle":  true,
+                     "interactionURL":  "",
+                     "subtitleColor":  "#FFFFFF",
+                     "showContent":  true,
+                     "videoURL":  "",
+                     "showHeader":  true,
+                     "showDate":  false,
+                     "subtitle":  "NOW AVAILABLE",
+                     "showSubTitle":  true,
+                     "imagesURL":  [
+                                       "https://your-server.com/image.png"
+                                   ]
+                 },
+                 {
+                     "header":  "LASTEST NEWS",
+                     "buttonContent":  "More info...",
+                     "showButton":  false,
+                     "date":  "2025-10-19T17:09:57.5876504-04:00",
+                     "showVideo":  false,
+                     "subtitleCustomColor":  false,
+                     "title":  "PATCH 1.0.4",
+                     "content":  "Critical Bug Fix\n\nâ€¢ Fixed crash on ship spawn\nâ€¢ Resolved camera lock issue\nâ€¢ Patched menu navigation bug",
+                     "showTitle":  true,
+                     "interactionURL":  "",
+                     "subtitleColor":  "#FFFFFF",
+                     "showContent":  true,
+                     "videoURL":  "",
+                     "showHeader":  true,
+                     "showDate":  false,
+                     "subtitle":  "HOTFIX DEPLOYED",
+                     "showSubTitle":  true,
+                     "imagesURL":  [
+                                       "https://cdn.wavesofsteel.com/banners/hotfix.png"
+                                   ]
+                 },
+                 {
+                     "header":  "LASTEST NEWS",
+                     "buttonContent":  "More info...",
+                     "showButton":  true,
+                     "date":  "2025-10-19T17:09:55.5704727-04:00",
+                     "showVideo":  false,
+                     "subtitleCustomColor":  false,
+                     "title":  "PATCH 1.0.3",
+                     "content":  "Server Performance Update\n\nâ€¢ Optimized ship physics calculations\nâ€¢ Reduced server lag by 40%\nâ€¢ Improved network sync\nâ€¢ Fixed desync issues\nâ€¢ Updated to Seattle datacenter",
+                     "showTitle":  true,
+                     "interactionURL":  "https://wavesofsteel.com/patch-notes/server-1.0.3",
+                     "subtitleColor":  "#FFFFFF",
+                     "showContent":  true,
+                     "videoURL":  "",
+                     "showHeader":  true,
+                     "showDate":  false,
+                     "subtitle":  "SERVER UPDATE",
+                     "showSubTitle":  true,
+                     "imagesURL":  [
+                                       "https://cdn.wavesofsteel.com/banners/server_update.png"
+                                   ]
+                 },
+                 {
+                     "header":  "LASTEST NEWS",
+                     "buttonContent":  "More info...",
+                     "showButton":  true,
+                     "date":  "2025-10-19T17:09:53.4717817-04:00",
+                     "showVideo":  true,
+                     "subtitleCustomColor":  false,
+                     "title":  "PATCH 1.0.2",
+                     "content":  "Major Content Update!\n\nâ€¢ New in-game ESC menu system\nâ€¢ Added pause functionality\nâ€¢ Exit to main menu option\nâ€¢ Improved UI responsiveness\nâ€¢ Bug fixes and stability improvements",
+                     "showTitle":  true,
+                     "interactionURL":  "https://wavesofsteel.com/patch-notes/1.0.2",
+                     "subtitleColor":  "#FFFFFF",
+                     "showContent":  true,
+                     "videoURL":  "https://youtu.be/72X0OySMzj0",
+                     "showHeader":  true,
+                     "showDate":  false,
+                     "subtitle":  "NOW AVAILABLE",
+                     "showSubTitle":  true,
+                     "imagesURL":  [
+                                       "https://cdn.wavesofsteel.com/banners/patch_1.0.2.png"
+                                   ]
+                 }
+             ],
+    "SubNews":  [
+
+                ]
 }
