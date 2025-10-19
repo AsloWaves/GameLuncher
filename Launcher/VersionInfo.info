@@ -4,15 +4,11 @@
   <Environment>Release</Environment>
   <AppName />
   <MaintenanceCheckURL />
-  <Version>1.0.2</Version>
+  <Version>1.0.3</Version>
   <Patches>
     <IncrementalPatch Files="0" CompressionFormat="NONE" PatchSize="10240" PatchMd5Hash="1276481102f218c981e0324180bafd9f" InfoURL="" DownloadURL="">
-      <FromVersion>1.0.0</FromVersion>
-      <ToVersion>1.0.1</ToVersion>
-    </IncrementalPatch>
-    <IncrementalPatch Files="5" CompressionFormat="NONE" PatchSize="69376000" PatchMd5Hash="2c97f653386b671089d330364e6a3f47" InfoURL="" DownloadURL="">
-      <FromVersion>1.0.1</FromVersion>
-      <ToVersion>1.0.2</ToVersion>
+      <FromVersion>1.0.2</FromVersion>
+      <ToVersion>1.0.3</ToVersion>
     </IncrementalPatch>
   </Patches>
   <InstallerPatch CompressionFormat="LZMA" PatchSize="0" PatchMd5Hash="" DownloadURL="" />
@@ -22,13 +18,12 @@
   </IgnoredPaths>
   <CompressionFormat>NONE</CompressionFormat>
   <Files>
-    <VersionItem Path="GameLauncher.exe" FileSize="90916172" Md5Hash="12e80c6af4d451c8743b3452a6970e9d" CompressedFileSize="90916172" CompressedMd5Hash="12e80c6af4d451c8743b3452a6970e9d" DownloadURL="" />
     <VersionItem Path="SelfUpdater\SelfPatcher.deps.json" FileSize="824" Md5Hash="4e0420f309fe13f2fac59dc84f88b711" CompressedFileSize="824" CompressedMd5Hash="4e0420f309fe13f2fac59dc84f88b711" DownloadURL="" />
     <VersionItem Path="SelfUpdater\SelfPatcher.dll" FileSize="95744" Md5Hash="fe74c5616e59cee134b856defd07cd43" CompressedFileSize="95744" CompressedMd5Hash="fe74c5616e59cee134b856defd07cd43" DownloadURL="" />
     <VersionItem Path="SelfUpdater\SelfPatcher.dll.config" FileSize="131" Md5Hash="5887b2878224040e99e1e44787287480" CompressedFileSize="131" CompressedMd5Hash="5887b2878224040e99e1e44787287480" DownloadURL="" />
-    <VersionItem Path="SelfUpdater\SelfPatcher.exe" FileSize="91136" Md5Hash="89217d56f3cc22cecbb11821f49e2c9f" CompressedFileSize="91136" CompressedMd5Hash="89217d56f3cc22cecbb11821f49e2c9f" DownloadURL="" />
+    <VersionItem Path="SelfUpdater\SelfPatcher.exe" FileSize="235520" Md5Hash="5d27eb58dedff0e1ed0816c3e04ee24e" CompressedFileSize="235520" CompressedMd5Hash="5d27eb58dedff0e1ed0816c3e04ee24e" DownloadURL="" />
     <VersionItem Path="SelfUpdater\SelfPatcher.runtimeconfig.json" FileSize="515" Md5Hash="e0f6f18f9b152bc2d8c710b0214805d6" CompressedFileSize="515" CompressedMd5Hash="e0f6f18f9b152bc2d8c710b0214805d6" DownloadURL="" />
-    <VersionItem Path="SelfUpdater\SelfPatcherCore.dll" FileSize="8704" Md5Hash="e6f47d8c9b42a556821335885c74ed31" CompressedFileSize="8704" CompressedMd5Hash="e6f47d8c9b42a556821335885c74ed31" DownloadURL="" />
+    <VersionItem Path="SelfUpdater\SelfPatcherCore.dll" FileSize="9216" Md5Hash="ccdf47419683e80c1adf7188818b3252" CompressedFileSize="9216" CompressedMd5Hash="ccdf47419683e80c1adf7188818b3252" DownloadURL="" />
   </Files>
   <Name>Launcher</Name>
 </VersionInfo>
