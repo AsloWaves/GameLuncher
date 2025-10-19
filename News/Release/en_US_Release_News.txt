@@ -74,97 +74,48 @@
                      "imagesURL":  [
                                        "https://your-server.com/image.png"
                                    ]
-                 },
-                 {
-                     "header":  "LASTEST NEWS",
-                     "buttonContent":  "More info...",
-                     "showButton":  false,
-                     "date":  "2025-10-19T17:09:59.6023741-04:00",
-                     "showVideo":  false,
-                     "subtitleCustomColor":  false,
-                     "title":  "PATCH 1.0.5",
-                     "content":  "UI Polish \u0026 Quality of Life\n\nâ€¢ Improved menu animations\nâ€¢ Added keyboard shortcuts\nâ€¢ Better error messages\nâ€¢ Minor visual improvements",
-                     "showTitle":  true,
-                     "interactionURL":  "",
-                     "subtitleColor":  "#FFFFFF",
-                     "showContent":  true,
-                     "videoURL":  "",
-                     "showHeader":  true,
-                     "showDate":  false,
-                     "subtitle":  "NOW AVAILABLE",
-                     "showSubTitle":  true,
-                     "imagesURL":  [
-                                       "https://your-server.com/image.png"
-                                   ]
-                 },
-                 {
-                     "header":  "LASTEST NEWS",
-                     "buttonContent":  "More info...",
-                     "showButton":  false,
-                     "date":  "2025-10-19T17:09:57.5876504-04:00",
-                     "showVideo":  false,
-                     "subtitleCustomColor":  false,
-                     "title":  "PATCH 1.0.4",
-                     "content":  "Critical Bug Fix\n\nâ€¢ Fixed crash on ship spawn\nâ€¢ Resolved camera lock issue\nâ€¢ Patched menu navigation bug",
-                     "showTitle":  true,
-                     "interactionURL":  "",
-                     "subtitleColor":  "#FFFFFF",
-                     "showContent":  true,
-                     "videoURL":  "",
-                     "showHeader":  true,
-                     "showDate":  false,
-                     "subtitle":  "HOTFIX DEPLOYED",
-                     "showSubTitle":  true,
-                     "imagesURL":  [
-                                       "https://cdn.wavesofsteel.com/banners/hotfix.png"
-                                   ]
-                 },
-                 {
-                     "header":  "LASTEST NEWS",
-                     "buttonContent":  "More info...",
-                     "showButton":  true,
-                     "date":  "2025-10-19T17:09:55.5704727-04:00",
-                     "showVideo":  false,
-                     "subtitleCustomColor":  false,
-                     "title":  "PATCH 1.0.3",
-                     "content":  "Server Performance Update\n\nâ€¢ Optimized ship physics calculations\nâ€¢ Reduced server lag by 40%\nâ€¢ Improved network sync\nâ€¢ Fixed desync issues\nâ€¢ Updated to Seattle datacenter",
-                     "showTitle":  true,
-                     "interactionURL":  "https://wavesofsteel.com/patch-notes/server-1.0.3",
-                     "subtitleColor":  "#FFFFFF",
-                     "showContent":  true,
-                     "videoURL":  "",
-                     "showHeader":  true,
-                     "showDate":  false,
-                     "subtitle":  "SERVER UPDATE",
-                     "showSubTitle":  true,
-                     "imagesURL":  [
-                                       "https://cdn.wavesofsteel.com/banners/server_update.png"
-                                   ]
-                 },
-                 {
-                     "header":  "LASTEST NEWS",
-                     "buttonContent":  "More info...",
-                     "showButton":  true,
-                     "date":  "2025-10-19T17:09:53.4717817-04:00",
-                     "showVideo":  true,
-                     "subtitleCustomColor":  false,
-                     "title":  "PATCH 1.0.2",
-                     "content":  "Major Content Update!\n\nâ€¢ New in-game ESC menu system\nâ€¢ Added pause functionality\nâ€¢ Exit to main menu option\nâ€¢ Improved UI responsiveness\nâ€¢ Bug fixes and stability improvements",
-                     "showTitle":  true,
-                     "interactionURL":  "https://wavesofsteel.com/patch-notes/1.0.2",
-                     "subtitleColor":  "#FFFFFF",
-                     "showContent":  true,
-                     "videoURL":  "https://youtu.be/72X0OySMzj0",
-                     "showHeader":  true,
-                     "showDate":  false,
-                     "subtitle":  "NOW AVAILABLE",
-                     "showSubTitle":  true,
-                     "imagesURL":  [
-                                       "https://cdn.wavesofsteel.com/banners/patch_1.0.2.png"
-                                   ]
                  }
              ],
     "SubNews":  [
-
+                    {
+                        "showTitle":  true,
+                        "title":  "PATCH 1.0.5",
+                        "interactionURL":  "",
+                        "content":  "UI Polish \u0026 Quality of Life\n\nâ€¢ Improved menu animations\nâ€¢ Added keyboard shortcuts\nâ€¢ Better error messages\nâ€¢ Minor visual improvements",
+                        "showContent":  true,
+                        "date":  "2025-10-19T17:09:59.6023741-04:00",
+                        "imageURL":  "https://your-server.com/image.png",
+                        "showDate":  false
+                    },
+                    {
+                        "showTitle":  true,
+                        "title":  "PATCH 1.0.4",
+                        "interactionURL":  "",
+                        "content":  "Critical Bug Fix\n\nâ€¢ Fixed crash on ship spawn\nâ€¢ Resolved camera lock issue\nâ€¢ Patched menu navigation bug",
+                        "showContent":  true,
+                        "date":  "2025-10-19T17:09:57.5876504-04:00",
+                        "imageURL":  "https://cdn.wavesofsteel.com/banners/hotfix.png",
+                        "showDate":  false
+                    },
+                    {
+                        "showTitle":  true,
+                        "title":  "PATCH 1.0.3",
+                        "interactionURL":  "https://wavesofsteel.com/patch-notes/server-1.0.3",
+                        "content":  "Server Performance Update\n\nâ€¢ Optimized ship physics calculations\nâ€¢ Reduced server lag by 40%\nâ€¢ Improved network sync\nâ€¢ Fixed desync issues\nâ€¢ Updated to Seattle datacenter",
+                        "showContent":  true,
+                        "date":  "2025-10-19T17:09:55.5704727-04:00",
+                        "imageURL":  "https://cdn.wavesofsteel.com/banners/server_update.png",
+                        "showDate":  false
+                    },
+                    {
+                        "showTitle":  true,
+                        "title":  "PATCH 1.0.2",
+                        "interactionURL":  "https://wavesofsteel.com/patch-notes/1.0.2",
+                        "content":  "Major Content Update!\n\nâ€¢ New in-game ESC menu system\nâ€¢ Added pause functionality\nâ€¢ Exit to main menu option\nâ€¢ Improved UI responsiveness\nâ€¢ Bug fixes and stability improvements",
+                        "showContent":  true,
+                        "date":  "2025-10-19T17:09:53.4717817-04:00",
+                        "imageURL":  "https://cdn.wavesofsteel.com/banners/patch_1.0.2.png",
+                        "showDate":  false
+                    }
                 ]
 }
