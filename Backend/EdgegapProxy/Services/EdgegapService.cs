@@ -123,23 +123,30 @@ public class EdgegapService
     {
         try
         {
-            // Extract gameport
-            if (!deployment.Ports.TryGetValue("gameport", out var gameport))
+            // Find game port (UDP protocol) - works regardless of port name
+            var gameport = deployment.Ports.Values.FirstOrDefault(p =>
+                p.Protocol.Equals("UDP", StringComparison.OrdinalIgnoreCase));
+
+            if (gameport == null)
             {
-                _logger.LogWarning($"Deployment {deployment.RequestId} missing gameport");
+                _logger.LogWarning($"Deployment {deployment.RequestId} missing UDP game port");
                 return null;
             }
 
-            // Extract healthport (fallback to default if not found)
-            var healthPort = HealthCheckPort; // Default
-            if (deployment.Ports.TryGetValue("healthport", out var healthport))
+            // Find health port (TCP on internal port 8080) - works regardless of port name
+            var healthPort = HealthCheckPort; // Default fallback
+            var healthPortMapping = deployment.Ports.Values.FirstOrDefault(p =>
+                p.Protocol.Equals("TCP", StringComparison.OrdinalIgnoreCase) &&
+                p.Internal == 8080);
+
+            if (healthPortMapping != null)
             {
-                healthPort = healthport.External;
-                _logger.LogDebug($"Using healthport external: {healthPort}");
+                healthPort = healthPortMapping.External;
+                _logger.LogDebug($"Found health port mapping: {healthPortMapping.Internal} → {healthPort}");
             }
             else
             {
-                _logger.LogWarning($"Deployment {deployment.RequestId} missing healthport, using default {HealthCheckPort}");
+                _logger.LogWarning($"Deployment {deployment.RequestId} missing TCP health port on 8080, using default {HealthCheckPort}");
             }
 
             return new ServerInfo
