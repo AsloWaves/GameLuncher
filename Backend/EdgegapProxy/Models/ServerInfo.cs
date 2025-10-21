@@ -50,13 +50,28 @@ public class EdgegapDeploymentResponse
 /// </summary>
 public class EdgegapDeployment
 {
+    [System.Text.Json.Serialization.JsonPropertyName("request_id")]
     public string RequestId { get; set; } = string.Empty;
+
+    [System.Text.Json.Serialization.JsonPropertyName("fqdn")]
     public string Fqdn { get; set; } = string.Empty;
+
+    [System.Text.Json.Serialization.JsonPropertyName("public_ip")]
     public string PublicIp { get; set; } = string.Empty;
+
+    [System.Text.Json.Serialization.JsonPropertyName("city")]
     public string City { get; set; } = string.Empty;
+
+    [System.Text.Json.Serialization.JsonPropertyName("country")]
     public string Country { get; set; } = string.Empty;
+
+    [System.Text.Json.Serialization.JsonPropertyName("current_status")]
     public string CurrentStatus { get; set; } = string.Empty;
+
+    [System.Text.Json.Serialization.JsonPropertyName("ports")]
     public Dictionary<string, EdgegapPort> Ports { get; set; } = new();
+
+    [System.Text.Json.Serialization.JsonPropertyName("tags")]
     public List<string> Tags { get; set; } = new();
 }
 
@@ -65,8 +80,13 @@ public class EdgegapDeployment
 /// </summary>
 public class EdgegapPort
 {
+    [System.Text.Json.Serialization.JsonPropertyName("external")]
     public int External { get; set; }
+
+    [System.Text.Json.Serialization.JsonPropertyName("internal")]
     public int Internal { get; set; }
+
+    [System.Text.Json.Serialization.JsonPropertyName("protocol")]
     public string Protocol { get; set; } = string.Empty;
 }
 
