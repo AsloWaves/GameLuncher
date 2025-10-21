@@ -9,6 +9,7 @@ public class ServerInfo
     public string ServerName { get; set; } = string.Empty;
     public string IpAddress { get; set; } = string.Empty;
     public int Port { get; set; }
+    public int HealthPort { get; set; } // External health check port from Edgegap
     public string Region { get; set; } = string.Empty;
     public string City { get; set; } = string.Empty;
     public string Country { get; set; } = string.Empty;

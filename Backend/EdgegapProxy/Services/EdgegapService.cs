@@ -130,12 +130,25 @@ public class EdgegapService
                 return null;
             }
 
+            // Extract healthport (fallback to default if not found)
+            var healthPort = HealthCheckPort; // Default
+            if (deployment.Ports.TryGetValue("healthport", out var healthport))
+            {
+                healthPort = healthport.External;
+                _logger.LogDebug($"Using healthport external: {healthPort}");
+            }
+            else
+            {
+                _logger.LogWarning($"Deployment {deployment.RequestId} missing healthport, using default {HealthCheckPort}");
+            }
+
             return new ServerInfo
             {
                 ServerId = deployment.RequestId,
                 ServerName = $"{deployment.City} Server",
                 IpAddress = deployment.PublicIp,
                 Port = gameport.External,
+                HealthPort = healthPort,
                 Region = deployment.Country,
                 City = deployment.City,
                 Country = deployment.Country,
@@ -159,7 +172,7 @@ public class EdgegapService
     {
         try
         {
-            var healthUrl = $"http://{server.IpAddress}:{HealthCheckPort}/health";
+            var healthUrl = $"http://{server.IpAddress}:{server.HealthPort}/health";
             _logger.LogDebug($"Checking health: {healthUrl}");
 
             var healthClient = new HttpClient { Timeout = TimeSpan.FromSeconds(HealthCheckTimeout) };
