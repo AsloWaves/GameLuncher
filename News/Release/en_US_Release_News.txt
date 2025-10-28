@@ -22,7 +22,7 @@
                      "showVideo":  false,
                      "subtitleCustomColor":  false,
                      "title":  "PATCH 1.0.3",
-                     "content":  "Menu System Improvements \u0026 Accessibilityn- Full keyboard navigation support (Tab, Arrow keys, Enter, Escape)n- Fixed menu display issues on scene transitionsn- Enhanced user experience across all menu panels",
+                     "content":  "Menu System Improvements & Accessibility\n\n- Full keyboard navigation support (Tab, Arrow keys, Enter, Escape)\n- ADA/WCAG 2.1 AA accessibility compliance\n- Fixed menu display issues on scene transitions\n- Improved menu reliability and state management\n- Enhanced user experience across all menu panels",
                      "showTitle":  true,
                      "interactionURL":  "",
                      "subtitleColor":  "#FFFFFF",
@@ -33,7 +33,7 @@
                      "subtitle":  "NOW AVAILABLE",
                      "showSubTitle":  true,
                      "imagesURL":  [
-                                       "https://your-server.com/image.png"
+                                       ""
                                    ]
                  },
                  {
