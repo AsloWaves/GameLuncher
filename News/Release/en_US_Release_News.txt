@@ -1,4 +1,4 @@
-﻿{
+{
     "ProjectName":  "Waves Of Steel",
     "Language":  "en_US",
     "Environment":  "Release",
@@ -11,46 +11,51 @@
     "PrivacyPolicyURL":  "",
     "ReportBugURL":  "",
     "Alerts":  [
-                   {
-                       "interactionURL":  "",
-                       "showAfterDate":  "2025-10-19T17:10:03.6555860-04:00",
-                       "message":  "Server maintenance scheduled for 12:00 UTC (2 hours). Expect brief disconnections during upgrade.",
-                       "type":  "Information",
-                       "date":  "2025-10-19T17:10:03.6555860-04:00",
-                       "showAfterDateBool":  false,
-                       "title":  "Server Update"
-                   },
-                   {
-                       "interactionURL":  "",
-                       "showAfterDate":  "2025-10-19T17:09:57.5876504-04:00",
-                       "message":  "Hotfix deployed! Please restart your game client to receive critical stability improvements.",
-                       "type":  "Information",
-                       "date":  "2025-10-19T17:09:57.5876504-04:00",
-                       "showAfterDateBool":  false,
-                       "title":  "Hotfix Update"
-                   }
+
                ],
     "News":  [
                  {
                      "header":  "LASTEST NEWS",
                      "buttonContent":  "More info...",
-                     "showButton":  true,
-                     "date":  "2025-10-19T17:10:03.6555860-04:00",
-                     "showVideo":  true,
+                     "showButton":  false,
+                     "date":  "2025-10-27T21:09:01.5501528-04:00",
+                     "showVideo":  false,
                      "subtitleCustomColor":  false,
-                     "title":  "PATCH 1.0.6",
-                     "content":  "Major Server Upgrade\n\n- New Edgegap Seattle datacenter\n- 50% faster response times\n- Increased player capacity to 300\n- New ship physics engine\n- Improved collision detection",
+                     "title":  "PATCH 1.0.3",
+                     "content":  "Menu System Improvements \u0026 Accessibilityn- Full keyboard navigation support (Tab, Arrow keys, Enter, Escape)n- Fixed menu display issues on scene transitionsn- Enhanced user experience across all menu panels",
                      "showTitle":  true,
-                     "interactionURL":  "https://wavesofsteel.com/blog/seattle-datacenter",
+                     "interactionURL":  "",
                      "subtitleColor":  "#FFFFFF",
                      "showContent":  true,
-                     "videoURL":  "https://youtu.be/dQw4w9WgXcQ",
+                     "videoURL":  "",
                      "showHeader":  true,
                      "showDate":  false,
-                     "subtitle":  "SERVER UPDATE",
+                     "subtitle":  "NOW AVAILABLE",
                      "showSubTitle":  true,
                      "imagesURL":  [
-                                       "https://cdn.wavesofsteel.com/banners/datacenter_upgrade.png"
+                                       "https://your-server.com/image.png"
+                                   ]
+                 },
+                 {
+                     "header":  "LASTEST NEWS",
+                     "buttonContent":  "More info...",
+                     "showButton":  false,
+                     "date":  "2025-10-20T00:00:00.0000000-04:00",
+                     "showVideo":  false,
+                     "subtitleCustomColor":  false,
+                     "title":  "GAME v1.0.2 - Stability Update",
+                     "content":  "Game Stability \u0026 Polish Update\n\n- Enhanced ESC menu reliability\n- Reduced memory usage by 15%\n- Improved input responsiveness\n- Fixed rare crash bugs\n- Better network state management",
+                     "showTitle":  true,
+                     "interactionURL":  "",
+                     "subtitleColor":  "#FFFFFF",
+                     "showContent":  true,
+                     "videoURL":  "",
+                     "showHeader":  true,
+                     "showDate":  false,
+                     "subtitle":  "GAME UPDATE",
+                     "showSubTitle":  true,
+                     "imagesURL":  [
+                                       ""
                                    ]
                  },
                  {
@@ -60,8 +65,8 @@
                      "date":  "2025-10-19T17:10:01.6186131-04:00",
                      "showVideo":  false,
                      "subtitleCustomColor":  false,
-                     "title":  "PATCH 1.0.5",
-                     "content":  "Game Launcher Improvements\n\n- Faster update downloads\n- Improved news display\n- Better error handling\n- UI refinements",
+                     "title":  "LAUNCHER v1.0.5 - Performance Update",
+                     "content":  "Launcher Performance \u0026 UX Update\n\n- Faster update downloads (30% improvement)\n- Improved news display\n- Better error handling\n- Enhanced UI responsiveness",
                      "showTitle":  true,
                      "interactionURL":  "",
                      "subtitleColor":  "#FFFFFF",
@@ -72,49 +77,29 @@
                      "subtitle":  "LAUNCHER UPDATE",
                      "showSubTitle":  true,
                      "imagesURL":  [
-                                       "https://your-server.com/image.png"
+                                       ""
                                    ]
                  }
              ],
     "SubNews":  [
                     {
                         "showTitle":  true,
-                        "title":  "PATCH 1.0.5",
+                        "title":  "GAME v1.0.1 - Quality of Life Update",
                         "interactionURL":  "",
-                        "content":  "UI Polish & Quality of Life\n\n- Improved menu animations\n- Added keyboard shortcuts\n- Better error messages\n- Minor visual improvements",
+                        "content":  "Major Usability Improvements\n\n- New in-game ESC menu system\n- Added pause functionality\n- Exit to main menu option\n- Improved cursor management\n- Better network disconnection handling",
                         "showContent":  true,
-                        "date":  "2025-10-19T17:09:59.6023741-04:00",
-                        "imageURL":  "https://your-server.com/image.png",
+                        "date":  "2025-10-19T00:00:00.0000000-04:00",
+                        "imageURL":  "",
                         "showDate":  false
                     },
                     {
                         "showTitle":  true,
-                        "title":  "PATCH 1.0.4",
+                        "title":  "GAME v1.0.0 - Initial Release",
                         "interactionURL":  "",
-                        "content":  "Critical Bug Fix\n\n- Fixed crash on ship spawn\n- Resolved camera lock issue\n- Patched menu navigation bug",
+                        "content":  "Welcome to Waves of Steel!\n\n- Mirror networking multiplayer\n- Realistic naval physics simulation\n- 8-speed throttle system\n- Dynamic camera controls\n- Edgegap server hosting (Seattle)",
                         "showContent":  true,
-                        "date":  "2025-10-19T17:09:57.5876504-04:00",
-                        "imageURL":  "https://cdn.wavesofsteel.com/banners/hotfix.png",
-                        "showDate":  false
-                    },
-                    {
-                        "showTitle":  true,
-                        "title":  "PATCH 1.0.3",
-                        "interactionURL":  "https://wavesofsteel.com/patch-notes/server-1.0.3",
-                        "content":  "Server Performance Update\n\n- Optimized ship physics calculations\n- Reduced server lag by 40%\n- Improved network sync\n- Fixed desync issues\n- Updated to Seattle datacenter",
-                        "showContent":  true,
-                        "date":  "2025-10-19T17:09:55.5704727-04:00",
-                        "imageURL":  "https://cdn.wavesofsteel.com/banners/server_update.png",
-                        "showDate":  false
-                    },
-                    {
-                        "showTitle":  true,
-                        "title":  "PATCH 1.0.2",
-                        "interactionURL":  "https://wavesofsteel.com/patch-notes/1.0.2",
-                        "content":  "Major Content Update!\n\n- New in-game ESC menu system\n- Added pause functionality\n- Exit to main menu option\n- Improved UI responsiveness\n- Bug fixes and stability improvements",
-                        "showContent":  true,
-                        "date":  "2025-10-19T17:09:53.4717817-04:00",
-                        "imageURL":  "https://cdn.wavesofsteel.com/banners/patch_1.0.2.png",
+                        "date":  "2025-10-15T00:00:00.0000000-04:00",
+                        "imageURL":  "",
                         "showDate":  false
                     }
                 ]
