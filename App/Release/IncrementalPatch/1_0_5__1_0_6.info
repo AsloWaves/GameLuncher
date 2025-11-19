@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PatchInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <RenamedFiles />
+  <Files>
+    <PatchItem Path="WOS_Data\boot.config" BeforeFileSize="156" BeforeMd5Hash="8e9c2fa19489d44c6b63ec66f029ceac" AfterFileSize="156" AfterMd5Hash="58876e9746cd08f360a7b2f2e6ae272f" />
+    <PatchItem Path="WOS_Data\Managed\Assembly-CSharp.dll" BeforeFileSize="1416192" BeforeMd5Hash="d52b39143d4c017296826dca4d4e920e" AfterFileSize="1417728" AfterMd5Hash="ddea9b1ec20f31786224fe78a3ca4bc0" />
+  </Files>
+</PatchInfo>
