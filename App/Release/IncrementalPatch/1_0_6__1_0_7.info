@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PatchInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <RenamedFiles />
+  <Files>
+    <PatchItem Path="WOS_Data\boot.config" BeforeFileSize="156" BeforeMd5Hash="58876e9746cd08f360a7b2f2e6ae272f" AfterFileSize="156" AfterMd5Hash="02e29b41e4d23f1fdc68dce6fe9d9a55" />
+    <PatchItem Path="WOS_Data\globalgamemanagers" BeforeFileSize="277956" BeforeMd5Hash="b27b97b2e5279e03d2a3a31f90e06afe" AfterFileSize="281844" AfterMd5Hash="e79fe4bb72c5e5fe192befeb60b2ad92" />
+    <PatchItem Path="WOS_Data\globalgamemanagers.assets" BeforeFileSize="1464132" BeforeMd5Hash="a265635480c08d932cb7e2585d72b1b4" AfterFileSize="1475524" AfterMd5Hash="429a1a2a12b2a7bfea73f7f249d4302a" />
+    <PatchItem Path="WOS_Data\level0" BeforeFileSize="749456" BeforeMd5Hash="e64137a8b267d6c64811cd2a63d23a16" AfterFileSize="750272" AfterMd5Hash="14d67460f1c7c9966abf6f5410116494" />
+    <PatchItem Path="WOS_Data\level1" BeforeFileSize="733304" BeforeMd5Hash="466306731aa9a373b2cbce40f8e15d1b" AfterFileSize="761940" AfterMd5Hash="30a379db00c6890e6a5666409587ee01" />
+    <PatchItem Path="WOS_Data\level2" BeforeFileSize="5532" BeforeMd5Hash="e6e6c0a5824f2b7983d66b809a3392ae" AfterFileSize="5532" AfterMd5Hash="0c60af2067532125485280a86120e957" />
+    <PatchItem Path="WOS_Data\resources.assets" BeforeFileSize="5315304" BeforeMd5Hash="26c3c32f70e446f5a5f8890757300d8d" AfterFileSize="5316808" AfterMd5Hash="9d6bdfbe4d334f559d253e0925ebf0c0" />
+    <PatchItem Path="WOS_Data\resources.assets.resS" BeforeFileSize="4860160" BeforeMd5Hash="0a2eba8b8251aeba7df29064787c1563" AfterFileSize="5646592" AfterMd5Hash="f55cb386a3617b932457d01fbef79f2c" />
+    <PatchItem Path="WOS_Data\sharedassets0.assets" BeforeFileSize="900444" BeforeMd5Hash="cfa3b6f0dccea4a7007c846e0e614be1" AfterFileSize="900524" AfterMd5Hash="f84bc45ed79f7b3f2cdfa3b23320ef0e" />
+    <PatchItem Path="WOS_Data\sharedassets1.assets" BeforeFileSize="12272" BeforeMd5Hash="62d718da55bda541ed96479611ff824f" AfterFileSize="34536" AfterMd5Hash="dcd673db07dd4744924306a97dc2bada" />
+    <PatchItem Path="WOS_Data\sharedassets1.assets.resS" BeforeFileSize="1125056" BeforeMd5Hash="46b7195b7844acbc3a79ad5b7edf8390" AfterFileSize="2072320" AfterMd5Hash="e9c40f522b25cacf3b001c62e11ec12d" />
+    <PatchItem Path="WOS_Data\sharedassets2.assets" BeforeFileSize="10448" BeforeMd5Hash="35cd5e06446841cc23fe9ee0db8b22bf" AfterFileSize="10448" AfterMd5Hash="f6e9c47cd167f65d9b783efd6cad7c2f" />
+    <PatchItem Path="WOS_Data\Managed\Assembly-CSharp.dll" BeforeFileSize="1417728" BeforeMd5Hash="ddea9b1ec20f31786224fe78a3ca4bc0" AfterFileSize="1970176" AfterMd5Hash="01fdfbc5a27b273b507eb65c3a0bf892" />
+    <PatchItem Path="WOS_Data\Plugins\x86_64\lib_burst_generated.dll" BeforeFileSize="447488" BeforeMd5Hash="ad08ef63069b81d44d51a517137fbb09" AfterFileSize="447488" AfterMd5Hash="f9af45bb8333995eb31f6699f876fadb" />
+  </Files>
+</PatchInfo>
