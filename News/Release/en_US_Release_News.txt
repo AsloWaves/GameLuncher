@@ -18,6 +18,28 @@
                      "header":  "LASTEST NEWS",
                      "buttonContent":  "More info...",
                      "showButton":  false,
+                     "date":  "2025-12-04T00:00:00.0000000-05:00",
+                     "showVideo":  false,
+                     "subtitleCustomColor":  false,
+                     "title":  "GAME v1.0.9 - Bug Fix Update",
+                     "content":  "Bug Fixes & Stability Improvements\n\n- Various bug fixes and stability improvements\n- Performance optimizations\n- Server build 1.0.39",
+                     "showTitle":  true,
+                     "interactionURL":  "",
+                     "subtitleColor":  "#FFFFFF",
+                     "showContent":  true,
+                     "videoURL":  "",
+                     "showHeader":  true,
+                     "showDate":  false,
+                     "subtitle":  "NOW AVAILABLE",
+                     "showSubTitle":  true,
+                     "imagesURL":  [
+                                       null
+                                   ]
+                 },
+                 {
+                     "header":  "LASTEST NEWS",
+                     "buttonContent":  "More info...",
+                     "showButton":  false,
                      "date":  "2025-12-03T00:00:00.0000000-05:00",
                      "showVideo":  false,
                      "subtitleCustomColor":  false,
@@ -30,7 +52,7 @@
                      "videoURL":  "",
                      "showHeader":  true,
                      "showDate":  false,
-                     "subtitle":  "NOW AVAILABLE",
+                     "subtitle":  "PREVIOUS UPDATE",
                      "showSubTitle":  true,
                      "imagesURL":  [
                                        null
