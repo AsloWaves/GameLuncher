@@ -1,0 +1,5 @@
+# Netlify config for the Fathoms Deep CDN site.
+# Static content is served as-is; the population function is deployed from netlify/functions.
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"
