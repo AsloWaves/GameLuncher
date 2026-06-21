@@ -1,0 +1,30 @@
+﻿[
+    {
+        "title":  "Maiden Voyage Festival",
+        "type":  "Season",
+        "description":  "Launch celebration — bonus XP and a free commemorative pennant for every captain.",
+        "startUtc":  "2026-06-21T01:44:42Z",
+        "endUtc":  "2026-06-27T13:44:42Z"
+    },
+    {
+        "title":  "Fleet Battle: Coral Sea",
+        "type":  "Battle",
+        "description":  "Massed PvP engagement in the Coral Sea theater. Double salvage rewards.",
+        "startUtc":  "2026-06-23T16:44:42Z",
+        "endUtc":  "2026-06-23T20:44:42Z"
+    },
+    {
+        "title":  "Scheduled Maintenance",
+        "type":  "Maintenance",
+        "description":  "World server maintenance and patch deployment. Expect ~30 min downtime.",
+        "startUtc":  "2026-06-25T13:44:42Z",
+        "endUtc":  "2026-06-25T14:14:42Z"
+    },
+    {
+        "title":  "Deep Salvage Weekend",
+        "type":  "Event",
+        "description":  "Rare deep-sea wrecks surface across the map. Bring a salvage rig.",
+        "startUtc":  "2026-06-30T13:44:42Z",
+        "endUtc":  "2026-07-02T13:44:42Z"
+    }
+]
