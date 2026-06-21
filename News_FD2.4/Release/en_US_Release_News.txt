@@ -1,0 +1,10 @@
+{
+  "news": [
+    {
+      "title": "Fathoms Deep - Early Development",
+      "date": "2026-03-28",
+      "content": "Welcome to the Fathoms Deep development build. This is an early test release.",
+      "image": ""
+    }
+  ]
+}
