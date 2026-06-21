@@ -34,11 +34,21 @@ exports.handler = async (event) => {
       }],
     };
 
-    const r = await fetch(WEBHOOK, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(payload),
-    });
+    const logs = (b.logs || "").toString();
+    let r;
+    if (logs.trim().length > 0) {
+      // Attach the log tail as a file so it isn't truncated by embed limits.
+      const form = new FormData();
+      form.append("payload_json", JSON.stringify(payload));
+      form.append("files[0]", new Blob([logs], { type: "text/plain" }), "report-logs.txt");
+      r = await fetch(WEBHOOK, { method: "POST", body: form });
+    } else {
+      r = await fetch(WEBHOOK, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      });
+    }
     if (!r.ok) return reply(200, { ok: false, error: "discord " + r.status });
     return reply(200, { ok: true });
   } catch (e) {
