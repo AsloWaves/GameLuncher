@@ -74,3 +74,4 @@ function reply(statusCode, obj) {
     body: JSON.stringify(obj),
   };
 }
+// redeploy trigger: env vars set 2026-06-21
