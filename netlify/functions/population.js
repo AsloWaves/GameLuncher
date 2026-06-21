@@ -42,13 +42,21 @@ exports.handler = async () => {
       { "X-EntityToken": entity }, { BuildId: buildId, Region: REGION, PageSize: 20 });
     const servers = (list && list.data && list.data.MultiplayerServerSummaries) || [];
 
-    let players = 0, active = 0, standby = 0;
+    let players = 0, active = 0, standby = 0, host = "", port = 0;
     for (const s of servers) {
       const state = (s.State || "").toLowerCase();
-      if (state === "active") { active++; players += (s.ConnectedPlayers || []).length; }
-      else if (state === "standingby") { standby++; }
+      if (state === "active") {
+        active++; players += (s.ConnectedPlayers || []).length;
+        if (!host) {
+          host = s.IPV4Address || s.FQDN || "";
+          const ports = s.Ports || [];
+          const gp = ports.find(p => p.Name === "game_port") || ports[0];
+          if (gp) port = gp.Num || 0;
+        }
+      } else if (state === "standingby") { standby++; }
     }
-    return reply(200, { online: active > 0, players, active, standby, servers: servers.length, build: buildName });
+    const endpoint = host ? (port ? `${host}:${port}` : host) : "";
+    return reply(200, { online: active > 0, players, active, standby, servers: servers.length, build: buildName, host, port, endpoint });
   } catch (e) {
     return reply(200, { online: false, players: 0, error: String(e && e.message ? e.message : e) });
   }
