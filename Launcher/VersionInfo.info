@@ -8,6 +8,11 @@
   <IgnoredPaths>
     <string>*patcher_log.txt</string>
     <string>*output_log.txt</string>
+    <string>games.json</string>
+    <string>settings.json</string>
+    <string>news_*.json</string>
+    <string>*.log</string>
+    <string>App\</string>
   </IgnoredPaths>
   <CompressionFormat>LZMA</CompressionFormat>
   <Files>
@@ -26,7 +31,6 @@
     <VersionItem Path="GameLauncher.exe" FileSize="180736" Md5Hash="c6a70474c0b5f1ea900226402895444a" CompressedFileSize="84121" CompressedMd5Hash="3123aba4d8fa3dfc37d803f884ca4ccb" DownloadURL="" />
     <VersionItem Path="GameLauncher.runtimeconfig.json" FileSize="820" Md5Hash="551cc412378c8ab6687b4be3fb409231" CompressedFileSize="396" CompressedMd5Hash="4775e09c7fc989f129f0a58f799b11e7" DownloadURL="" />
     <VersionItem Path="GameLauncherCore.dll" FileSize="284672" Md5Hash="9dadb76de7d45be03d0a7fa3763f6da2" CompressedFileSize="133625" CompressedMd5Hash="5442a85025e0e416bef1a9e6d0126a8c" DownloadURL="" />
-    <VersionItem Path="games.json" FileSize="724" Md5Hash="e1f2848a993309f376fdb9da193f6740" CompressedFileSize="363" CompressedMd5Hash="3e08d73e796bee7d22543c43867b0f99" DownloadURL="" />
     <VersionItem Path="Hardcodet.NotifyIcon.Wpf.dll" FileSize="123904" Md5Hash="c6a38ea14934d7d123e08b8f3a05c606" CompressedFileSize="85251" CompressedMd5Hash="48a2afc220609f10b08f71508be26d26" DownloadURL="" />
     <VersionItem Path="hostfxr.dll" FileSize="366856" Md5Hash="527f93bd09cfaf1c3e1cef7ee7a706af" CompressedFileSize="140119" CompressedMd5Hash="b47fc11467607a10d2fe8624411ffff0" DownloadURL="" />
     <VersionItem Path="hostpolicy.dll" FileSize="407344" Md5Hash="fcb3b090ef431d0b98561d22ca6aa969" CompressedFileSize="154662" CompressedMd5Hash="6e4ebe59bce1f166f22e78b7b6aa1377" DownloadURL="" />
@@ -57,7 +61,6 @@
     <VersionItem Path="mscorrc.dll" FileSize="136968" Md5Hash="0f0453891b8a3de91053240936acd244" CompressedFileSize="25164" CompressedMd5Hash="e82c2e3773010021cc92210efdd6e944" DownloadURL="" />
     <VersionItem Path="msquic.dll" FileSize="529480" Md5Hash="6e4bc4179d1115e6f9535fa054da23cc" CompressedFileSize="219353" CompressedMd5Hash="6fd09c0e00e007ce497a351857679d6d" DownloadURL="" />
     <VersionItem Path="netstandard.dll" FileSize="101136" Md5Hash="ffc1e7d1f83a493bd3f25e1aa758ccb6" CompressedFileSize="28697" CompressedMd5Hash="cd5432dec8181e65bfa6b21713196357" DownloadURL="" />
-    <VersionItem Path="news_Untitled Game.json" FileSize="5763" Md5Hash="1d9342fe1e937a1b247ebcc07bf9ab74" CompressedFileSize="1392" CompressedMd5Hash="65c451749a6942e2c74c544a6fac2aa7" DownloadURL="" />
     <VersionItem Path="Newtonsoft.Json.dll" FileSize="712464" Md5Hash="adf3e3eecde20b7c9661e9c47106a14a" CompressedFileSize="209637" CompressedMd5Hash="f6f33199faace380ae6414eff6a79b75" DownloadURL="" />
     <VersionItem Path="PenImc_cor3.dll" FileSize="157968" Md5Hash="1c2cbc9af5fa075c7b2b23b2c8d2aaa9" CompressedFileSize="63907" CompressedMd5Hash="3f045673eeb82883bc60816c924ceff5" DownloadURL="" />
     <VersionItem Path="PlayFabAllSDK.dll" FileSize="2309944" Md5Hash="d26cc7f85964255c0515ed9a9b928254" CompressedFileSize="288869" CompressedMd5Hash="7945bcdcecab01ee1bade0024c5f37d2" DownloadURL="" />
@@ -78,7 +81,6 @@
     <VersionItem Path="PresentationNative_cor3.dll" FileSize="1235760" Md5Hash="c9e8eea76fff652ef726a96f70d1d249" CompressedFileSize="481902" CompressedMd5Hash="ac7dc4b90b8793c35cb28c18740e74cd" DownloadURL="" />
     <VersionItem Path="PresentationUI.dll" FileSize="1288456" Md5Hash="a406a5d3e76841a06c2c641048ae69ac" CompressedFileSize="447950" CompressedMd5Hash="deb8b0c3332cc74c22f75e43333eb719" DownloadURL="" />
     <VersionItem Path="ReachFramework.dll" FileSize="1603848" Md5Hash="6072f2133230ca9891fc6383b94b5e82" CompressedFileSize="576445" CompressedMd5Hash="3dcd9a3da4d2e9349438d1b89cebdf04" DownloadURL="" />
-    <VersionItem Path="settings.json" FileSize="277" Md5Hash="d9e7b64e7479a7a72711b33b310d9be2" CompressedFileSize="211" CompressedMd5Hash="71dd7a20dbb57293d3b595634eaf520f" DownloadURL="" />
     <VersionItem Path="System.AppContext.dll" FileSize="15624" Md5Hash="c62f40971ac73901611a88a59e1a1091" CompressedFileSize="9045" CompressedMd5Hash="a1079aed6c0af8522ecafe6130863a65" DownloadURL="" />
     <VersionItem Path="System.Buffers.dll" FileSize="15672" Md5Hash="145568846afbf09ec463a2d7c27f2485" CompressedFileSize="9053" CompressedMd5Hash="7d694721b5af0b20942fa3b2bb6e36e8" DownloadURL="" />
     <VersionItem Path="System.CodeDom.dll" FileSize="489744" Md5Hash="0ff07d83707a45add662e796d39ca6d2" CompressedFileSize="168847" CompressedMd5Hash="a1cbcbfd3fee414d20c0d6ae9a01bbad" DownloadURL="" />
