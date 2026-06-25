@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PatchInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <RenamedFiles />
+  <Files>
+    <PatchItem Path="FathomsDeep.exe" BeforeFileSize="0" BeforeMd5Hash="" AfterFileSize="667648" AfterMd5Hash="26d232d9d185318fd3853efd7f6854e6" />
+    <PatchItem Path="GameAssembly.dll" BeforeFileSize="87225856" BeforeMd5Hash="b7fd6bbb97fbeb711ea17f625c879d19" AfterFileSize="87226368" AfterMd5Hash="1f6ccedf231b96be420b473a481a0f37" />
+    <PatchItem Path="FathomsDeep_Data\app.info" BeforeFileSize="0" BeforeMd5Hash="" AfterFileSize="24" AfterMd5Hash="56cb1a9f41ea377fc32f829544209e8f" />
+    <PatchItem Path="FathomsDeep_Data\boot.config" BeforeFileSize="0" BeforeMd5Hash="" AfterFileSize="156" AfterMd5Hash="bc3f383ccd3a0b93d15adb97440b3dae" />
+    <PatchItem Path="FathomsDeep_Data\globalgamemanagers" BeforeFileSize="0" BeforeMd5Hash="" AfterFileSize="403988" AfterMd5Hash="8f38f96a5cf7b087d9b138b3be24a9c6" />
+    <PatchItem Path="FathomsDeep_Data\globalgamemanagers.assets" BeforeFileSize="0" BeforeMd5Hash="" AfterFileSize="1540632" AfterMd5Hash="9f062ce924b7e461494d83b160e4c8be" />
+    <PatchItem Path="FathomsDeep_Data\globalgamemanagers.assets.resS" BeforeFileSize="0" BeforeMd5Hash="" AfterFileSize="5716192" AfterMd5Hash="a753228c12ced77d4beb8b3077f459c8" />
+    <PatchItem Path="FathomsDeep_Data\level0" BeforeFileSize="0" BeforeMd5Hash="" AfterFileSize="12084" AfterMd5Hash="1218394efba984edf8f6233f81731d61" />
+    <PatchItem Path="FathomsDeep_Data\level1" BeforeFileSize="0" BeforeMd5Hash="" AfterFileSize="2812808" AfterMd5Hash="fd568d30983e9a7e5f73f9038fd76b07" />
+    <PatchItem Path="FathomsDeep_Data\level2" BeforeFileSize="0" BeforeMd5Hash="" AfterFileSize="93400" AfterMd5Hash="3a46d299694b5d359cc175e97cdf24f2" />
+    <PatchItem Path="FathomsDeep_Data\level2.resS" BeforeFileSize="0" BeforeMd5Hash="" AfterFileSize="1920" AfterMd5Hash="5d8cf723090cf27c0f58ec162d939f0c" />
+    <PatchItem Path="FathomsDeep_Data\resources.assets" BeforeFileSize="0" BeforeMd5Hash="" AfterFileSize="3114516" AfterMd5Hash="fd427dea3e16692dde0af7b27f59be84" />
+    <PatchItem Path="FathomsDeep_Data\resources.assets.resS" BeforeFileSize="0" BeforeMd5Hash="" AfterFileSize="35906384" AfterMd5Hash="2442c6149b0b73dc5f97b1b2bf14c98e" />
+    <PatchItem Path="FathomsDeep_Data\resources.resource" BeforeFileSize="0" BeforeMd5Hash="" AfterFileSize="2458176" AfterMd5Hash="e1ec1f8333fdab8dda1e32ddf8ebe498" />
+    <PatchItem Path="FathomsDeep_Data\RuntimeInitializeOnLoads.json" BeforeFileSize="0" BeforeMd5Hash="" AfterFileSize="20481" AfterMd5Hash="ad801ee4b17bcdd6f32c2c262b1cf482" />
+    <PatchItem Path="FathomsDeep_Data\ScriptingAssemblies.json" BeforeFileSize="0" BeforeMd5Hash="" AfterFileSize="6831" AfterMd5Hash="7e9866f89ee9fb7ff937f17997e06c33" />
+    <PatchItem Path="FathomsDeep_Data\sharedassets0.assets" BeforeFileSize="0" BeforeMd5Hash="" AfterFileSize="7514256" AfterMd5Hash="0b13dfd412c399e5335bc7cdd4fec5dd" />
+    <PatchItem Path="FathomsDeep_Data\sharedassets0.assets.resS" BeforeFileSize="0" BeforeMd5Hash="" AfterFileSize="220946400" AfterMd5Hash="6a6ac7d026406dbabd896d62c9b0baa8" />
+    <PatchItem Path="FathomsDeep_Data\sharedassets0.resource" BeforeFileSize="0" BeforeMd5Hash="" AfterFileSize="11534112" AfterMd5Hash="c9cc5107a3d5278b0a4df9a877094c12" />
+    <PatchItem Path="FathomsDeep_Data\sharedassets1.assets" BeforeFileSize="0" BeforeMd5Hash="" AfterFileSize="171768" AfterMd5Hash="88b6373b92d57c3e7e8f70aec532dc0c" />
+    <PatchItem Path="FathomsDeep_Data\sharedassets1.assets.resS" BeforeFileSize="0" BeforeMd5Hash="" AfterFileSize="11316096" AfterMd5Hash="9522cb71b730d19203e76c6c4055dabb" />
+    <PatchItem Path="FathomsDeep_Data\sharedassets2.assets" BeforeFileSize="0" BeforeMd5Hash="" AfterFileSize="16120" AfterMd5Hash="6bea1ac32245862ffb17afdf4b40c759" />
+    <PatchItem Path="FathomsDeep_Data\il2cpp_data\Metadata\global-metadata.dat" BeforeFileSize="0" BeforeMd5Hash="" AfterFileSize="23440848" AfterMd5Hash="8ab127f8b067db600bc7bd202c0756d1" />
+    <PatchItem Path="FathomsDeep_Data\il2cpp_data\Resources\Microsoft.Bcl.TimeProvider.dll-resources.dat" BeforeFileSize="0" BeforeMd5Hash="" AfterFileSize="1106" AfterMd5Hash="0adf4f0ee226b8cf29211b95285cfe73" />
+    <PatchItem Path="FathomsDeep_Data\il2cpp_data\Resources\Microsoft.Extensions.Configuration.Abstractions.dll-resources.dat" BeforeFileSize="0" BeforeMd5Hash="" AfterFileSize="360" AfterMd5Hash="98cc72c4cc1cb32f40d154b3b02a7cd6" />
+    <PatchItem Path="FathomsDeep_Data\il2cpp_data\Resources\Microsoft.Extensions.DependencyInjection.Abstractions.dll-resources.dat" BeforeFileSize="0" BeforeMd5Hash="" AfterFileSize="2599" AfterMd5Hash="09568fffbd093229c460ca6101561a71" />
+    <PatchItem Path="FathomsDeep_Data\il2cpp_data\Resources\Microsoft.Extensions.DependencyInjection.dll-resources.dat" BeforeFileSize="0" BeforeMd5Hash="" AfterFileSize="4294" AfterMd5Hash="ca7bfa08dc02b589acee66c34bbd25de" />
+    <PatchItem Path="FathomsDeep_Data\il2cpp_data\Resources\Microsoft.Extensions.Logging.Abstractions.dll-resources.dat" BeforeFileSize="0" BeforeMd5Hash="" AfterFileSize="476" AfterMd5Hash="082f3aac17cb6eeb13756dc5598cb70d" />
+    <PatchItem Path="FathomsDeep_Data\il2cpp_data\Resources\Microsoft.Extensions.Logging.dll-resources.dat" BeforeFileSize="0" BeforeMd5Hash="" AfterFileSize="478" AfterMd5Hash="4cfc0c8ae02890443eef407778eda2c9" />
+    <PatchItem Path="FathomsDeep_Data\il2cpp_data\Resources\Microsoft.Extensions.Options.dll-resources.dat" BeforeFileSize="0" BeforeMd5Hash="" AfterFileSize="1212" AfterMd5Hash="15331f49ad8bafc3879df09457935adf" />
+    <PatchItem Path="FathomsDeep_Data\il2cpp_data\Resources\Microsoft.Extensions.Primitives.dll-resources.dat" BeforeFileSize="0" BeforeMd5Hash="" AfterFileSize="1084" AfterMd5Hash="8ccb5767c28a516492729b33baffa000" />
+    <PatchItem Path="FathomsDeep_Data\il2cpp_data\Resources\mscorlib.dll-resources.dat" BeforeFileSize="0" BeforeMd5Hash="" AfterFileSize="337563" AfterMd5Hash="21d06dbc8af6432b2b49536ed30609af" />
+    <PatchItem Path="FathomsDeep_Data\il2cpp_data\Resources\R3.dll-resources.dat" BeforeFileSize="0" BeforeMd5Hash="" AfterFileSize="1096" AfterMd5Hash="6debb743e246171a9d33d58f24ebf1a9" />
+    <PatchItem Path="FathomsDeep_Data\il2cpp_data\Resources\System.ComponentModel.Annotations.dll-resources.dat" BeforeFileSize="0" BeforeMd5Hash="" AfterFileSize="9262" AfterMd5Hash="dae84cfa9c28cde203318583643b8e6e" />
+    <PatchItem Path="FathomsDeep_Data\il2cpp_data\Resources\System.Diagnostics.DiagnosticSource.dll-resources.dat" BeforeFileSize="0" BeforeMd5Hash="" AfterFileSize="2236" AfterMd5Hash="5b5fd9eae12871ef4c717202ffe166d3" />
+    <PatchItem Path="FathomsDeep_Data\il2cpp_data\Resources\System.IO.Pipelines.dll-resources.dat" BeforeFileSize="0" BeforeMd5Hash="" AfterFileSize="2294" AfterMd5Hash="a9fb434a014d770bd02b1e280970786f" />
+    <PatchItem Path="FathomsDeep_Data\il2cpp_data\Resources\System.Text.Encodings.Web.dll-resources.dat" BeforeFileSize="0" BeforeMd5Hash="" AfterFileSize="435" AfterMd5Hash="3864ea059662c4cb5e2ceb312c19b74d" />
+    <PatchItem Path="FathomsDeep_Data\il2cpp_data\Resources\System.Text.Json.dll-resources.dat" BeforeFileSize="0" BeforeMd5Hash="" AfterFileSize="33482" AfterMd5Hash="cfd14a49592227034ceb37cb2af76e45" />
+    <PatchItem Path="FathomsDeep_Data\il2cpp_data\Resources\System.Threading.Channels.dll-resources.dat" BeforeFileSize="0" BeforeMd5Hash="" AfterFileSize="792" AfterMd5Hash="4f651d83042798ce52b5603a318cccdd" />
+    <PatchItem Path="FathomsDeep_Data\Plugins\x86_64\lib_burst_generated.dll" BeforeFileSize="0" BeforeMd5Hash="" AfterFileSize="544256" AfterMd5Hash="b90e12e09f0d3fea2c5c17907d63b1cb" />
+    <PatchItem Path="FathomsDeep_Data\Plugins\x86_64\NativePlugins.dll" BeforeFileSize="0" BeforeMd5Hash="" AfterFileSize="108032" AfterMd5Hash="719cd6e2a1a933ef57f4a11705b24a5b" />
+    <PatchItem Path="FathomsDeep_Data\Resources\unity default resources" BeforeFileSize="0" BeforeMd5Hash="" AfterFileSize="5923140" AfterMd5Hash="fe6310e83edf92098ec231af6ee01909" />
+    <PatchItem Path="FathomsDeep_Data\Resources\unity_builtin_extra" BeforeFileSize="0" BeforeMd5Hash="" AfterFileSize="401928" AfterMd5Hash="8f5f5030b90f01e0b5cd8b8f8751fb3f" />
+  </Files>
+</PatchInfo>
