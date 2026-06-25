@@ -1,6 +1,6 @@
-{
+﻿{
     "ProjectName":  "Fathoms Deep",
-    "Language":  "en_US",
+    "Language":  "es_MX",
     "Environment":  "Release",
     "Region":  "Any",
     "ServerStatus":  "Online",
@@ -114,3 +114,4 @@
                     }
                 ]
 }
+
