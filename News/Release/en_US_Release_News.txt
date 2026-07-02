@@ -4,12 +4,12 @@
     "Environment":  "Release",
     "Region":  "Any",
     "ServerStatus":  "Online",
-    "WebpageURL":  "",
-    "PatchNotesURL":  "",
-    "MyAccountURL":  "",
-    "TermsOfServiceURL":  "",
-    "PrivacyPolicyURL":  "",
-    "ReportBugURL":  "",
+    "WebpageURL":  "https://fathomsdeepgame.com",
+    "PatchNotesURL":  "https://fathomsdeepgame.com/patch-notes",
+    "MyAccountURL":  "https://fathomsdeepgame.com/account",
+    "TermsOfServiceURL":  "https://fathomsdeepgame.com/terms",
+    "PrivacyPolicyURL":  "https://fathomsdeepgame.com/privacy",
+    "ReportBugURL":  "https://fathomsdeepgame.com/#community",
     "Alerts":  [
 
                ],
