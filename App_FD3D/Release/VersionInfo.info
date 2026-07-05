@@ -1,75 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
 <VersionInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <BaseDownloadURL>https://aslogamelauncher.netlify.app/App_FD3D/Release/</BaseDownloadURL>
-  <Environment>Release</Environment>
-  <AppName />
   <MaintenanceCheckURL />
-  <Version>1.0.2</Version>
-  <Patches>
-    <IncrementalPatch Files="15" CompressionFormat="NONE" PatchSize="98693120" PatchMd5Hash="b2b19df6aed85e6a2c6bc6c1b1a10021" InfoURL="" DownloadURL="">
-      <FromVersion>1.0.0</FromVersion>
-      <ToVersion>1.0.1</ToVersion>
-    </IncrementalPatch>
-    <IncrementalPatch Files="43" CompressionFormat="NONE" PatchSize="401080320" PatchMd5Hash="28b565679652d27c59edef2ea9850f54" InfoURL="" DownloadURL="">
-      <FromVersion>1.0.1</FromVersion>
-      <ToVersion>1.0.2</ToVersion>
-    </IncrementalPatch>
-  </Patches>
+  <Version>1.0.3</Version>
+  <Patches />
   <InstallerPatch CompressionFormat="LZMA" PatchSize="0" PatchMd5Hash="" DownloadURL="" />
   <IgnoredPaths>
     <string>*patcher_log.txt</string>
     <string>*output_log.txt</string>
     <string>SelfUpdater\</string>
   </IgnoredPaths>
-  <CompressionFormat>NONE</CompressionFormat>
+  <CompressionFormat>LZMA</CompressionFormat>
   <Files>
-    <VersionItem Path="baselib.dll" FileSize="239536" Md5Hash="48269baa1cd07be1d3321edeadc9441a" CompressedFileSize="239536" CompressedMd5Hash="48269baa1cd07be1d3321edeadc9441a" DownloadURL="" />
-    <VersionItem Path="FathomsDeep.exe" FileSize="667648" Md5Hash="26d232d9d185318fd3853efd7f6854e6" CompressedFileSize="667648" CompressedMd5Hash="26d232d9d185318fd3853efd7f6854e6" DownloadURL="" />
-    <VersionItem Path="GameAssembly.dll" FileSize="87226368" Md5Hash="1f6ccedf231b96be420b473a481a0f37" CompressedFileSize="87226368" CompressedMd5Hash="1f6ccedf231b96be420b473a481a0f37" DownloadURL="" />
-    <VersionItem Path="UnityCrashHandler64.exe" FileSize="1609648" Md5Hash="96729d667f946848d5fa3cdf926ade47" CompressedFileSize="1609648" CompressedMd5Hash="96729d667f946848d5fa3cdf926ade47" DownloadURL="" />
-    <VersionItem Path="UnityPlayer.dll" FileSize="35739048" Md5Hash="63a605d7c7e22c4aca3edd63484fe85b" CompressedFileSize="35739048" CompressedMd5Hash="63a605d7c7e22c4aca3edd63484fe85b" DownloadURL="" />
-    <VersionItem Path="D3D12\D3D12Core.dll" FileSize="4725304" Md5Hash="8bed03240b764906c937c0d6ccd560ac" CompressedFileSize="4725304" CompressedMd5Hash="8bed03240b764906c937c0d6ccd560ac" DownloadURL="" />
-    <VersionItem Path="FathomsDeep_Data\app.info" FileSize="24" Md5Hash="56cb1a9f41ea377fc32f829544209e8f" CompressedFileSize="24" CompressedMd5Hash="56cb1a9f41ea377fc32f829544209e8f" DownloadURL="" />
-    <VersionItem Path="FathomsDeep_Data\boot.config" FileSize="156" Md5Hash="bc3f383ccd3a0b93d15adb97440b3dae" CompressedFileSize="156" CompressedMd5Hash="bc3f383ccd3a0b93d15adb97440b3dae" DownloadURL="" />
-    <VersionItem Path="FathomsDeep_Data\globalgamemanagers" FileSize="403988" Md5Hash="8f38f96a5cf7b087d9b138b3be24a9c6" CompressedFileSize="403988" CompressedMd5Hash="8f38f96a5cf7b087d9b138b3be24a9c6" DownloadURL="" />
-    <VersionItem Path="FathomsDeep_Data\globalgamemanagers.assets" FileSize="1540632" Md5Hash="9f062ce924b7e461494d83b160e4c8be" CompressedFileSize="1540632" CompressedMd5Hash="9f062ce924b7e461494d83b160e4c8be" DownloadURL="" />
-    <VersionItem Path="FathomsDeep_Data\globalgamemanagers.assets.resS" FileSize="5716192" Md5Hash="a753228c12ced77d4beb8b3077f459c8" CompressedFileSize="5716192" CompressedMd5Hash="a753228c12ced77d4beb8b3077f459c8" DownloadURL="" />
-    <VersionItem Path="FathomsDeep_Data\level0" FileSize="12084" Md5Hash="1218394efba984edf8f6233f81731d61" CompressedFileSize="12084" CompressedMd5Hash="1218394efba984edf8f6233f81731d61" DownloadURL="" />
-    <VersionItem Path="FathomsDeep_Data\level1" FileSize="2812808" Md5Hash="fd568d30983e9a7e5f73f9038fd76b07" CompressedFileSize="2812808" CompressedMd5Hash="fd568d30983e9a7e5f73f9038fd76b07" DownloadURL="" />
-    <VersionItem Path="FathomsDeep_Data\level2" FileSize="93400" Md5Hash="3a46d299694b5d359cc175e97cdf24f2" CompressedFileSize="93400" CompressedMd5Hash="3a46d299694b5d359cc175e97cdf24f2" DownloadURL="" />
-    <VersionItem Path="FathomsDeep_Data\level2.resS" FileSize="1920" Md5Hash="5d8cf723090cf27c0f58ec162d939f0c" CompressedFileSize="1920" CompressedMd5Hash="5d8cf723090cf27c0f58ec162d939f0c" DownloadURL="" />
-    <VersionItem Path="FathomsDeep_Data\resources.assets" FileSize="3114516" Md5Hash="fd427dea3e16692dde0af7b27f59be84" CompressedFileSize="3114516" CompressedMd5Hash="fd427dea3e16692dde0af7b27f59be84" DownloadURL="" />
-    <VersionItem Path="FathomsDeep_Data\resources.assets.resS" FileSize="35906384" Md5Hash="2442c6149b0b73dc5f97b1b2bf14c98e" CompressedFileSize="35906384" CompressedMd5Hash="2442c6149b0b73dc5f97b1b2bf14c98e" DownloadURL="" />
-    <VersionItem Path="FathomsDeep_Data\resources.resource" FileSize="2458176" Md5Hash="e1ec1f8333fdab8dda1e32ddf8ebe498" CompressedFileSize="2458176" CompressedMd5Hash="e1ec1f8333fdab8dda1e32ddf8ebe498" DownloadURL="" />
-    <VersionItem Path="FathomsDeep_Data\RuntimeInitializeOnLoads.json" FileSize="20481" Md5Hash="ad801ee4b17bcdd6f32c2c262b1cf482" CompressedFileSize="20481" CompressedMd5Hash="ad801ee4b17bcdd6f32c2c262b1cf482" DownloadURL="" />
-    <VersionItem Path="FathomsDeep_Data\ScriptingAssemblies.json" FileSize="6831" Md5Hash="7e9866f89ee9fb7ff937f17997e06c33" CompressedFileSize="6831" CompressedMd5Hash="7e9866f89ee9fb7ff937f17997e06c33" DownloadURL="" />
-    <VersionItem Path="FathomsDeep_Data\sharedassets0.assets" FileSize="7514256" Md5Hash="0b13dfd412c399e5335bc7cdd4fec5dd" CompressedFileSize="7514256" CompressedMd5Hash="0b13dfd412c399e5335bc7cdd4fec5dd" DownloadURL="" />
-    <VersionItem Path="FathomsDeep_Data\sharedassets0.assets.resS" FileSize="220946400" Md5Hash="6a6ac7d026406dbabd896d62c9b0baa8" CompressedFileSize="220946400" CompressedMd5Hash="6a6ac7d026406dbabd896d62c9b0baa8" DownloadURL="" />
-    <VersionItem Path="FathomsDeep_Data\sharedassets0.resource" FileSize="11534112" Md5Hash="c9cc5107a3d5278b0a4df9a877094c12" CompressedFileSize="11534112" CompressedMd5Hash="c9cc5107a3d5278b0a4df9a877094c12" DownloadURL="" />
-    <VersionItem Path="FathomsDeep_Data\sharedassets1.assets" FileSize="171768" Md5Hash="88b6373b92d57c3e7e8f70aec532dc0c" CompressedFileSize="171768" CompressedMd5Hash="88b6373b92d57c3e7e8f70aec532dc0c" DownloadURL="" />
-    <VersionItem Path="FathomsDeep_Data\sharedassets1.assets.resS" FileSize="11316096" Md5Hash="9522cb71b730d19203e76c6c4055dabb" CompressedFileSize="11316096" CompressedMd5Hash="9522cb71b730d19203e76c6c4055dabb" DownloadURL="" />
-    <VersionItem Path="FathomsDeep_Data\sharedassets2.assets" FileSize="16120" Md5Hash="6bea1ac32245862ffb17afdf4b40c759" CompressedFileSize="16120" CompressedMd5Hash="6bea1ac32245862ffb17afdf4b40c759" DownloadURL="" />
-    <VersionItem Path="FathomsDeep_Data\il2cpp_data\Metadata\global-metadata.dat" FileSize="23440848" Md5Hash="8ab127f8b067db600bc7bd202c0756d1" CompressedFileSize="23440848" CompressedMd5Hash="8ab127f8b067db600bc7bd202c0756d1" DownloadURL="" />
-    <VersionItem Path="FathomsDeep_Data\il2cpp_data\Resources\Microsoft.Bcl.TimeProvider.dll-resources.dat" FileSize="1106" Md5Hash="0adf4f0ee226b8cf29211b95285cfe73" CompressedFileSize="1106" CompressedMd5Hash="0adf4f0ee226b8cf29211b95285cfe73" DownloadURL="" />
-    <VersionItem Path="FathomsDeep_Data\il2cpp_data\Resources\Microsoft.Extensions.Configuration.Abstractions.dll-resources.dat" FileSize="360" Md5Hash="98cc72c4cc1cb32f40d154b3b02a7cd6" CompressedFileSize="360" CompressedMd5Hash="98cc72c4cc1cb32f40d154b3b02a7cd6" DownloadURL="" />
-    <VersionItem Path="FathomsDeep_Data\il2cpp_data\Resources\Microsoft.Extensions.DependencyInjection.Abstractions.dll-resources.dat" FileSize="2599" Md5Hash="09568fffbd093229c460ca6101561a71" CompressedFileSize="2599" CompressedMd5Hash="09568fffbd093229c460ca6101561a71" DownloadURL="" />
-    <VersionItem Path="FathomsDeep_Data\il2cpp_data\Resources\Microsoft.Extensions.DependencyInjection.dll-resources.dat" FileSize="4294" Md5Hash="ca7bfa08dc02b589acee66c34bbd25de" CompressedFileSize="4294" CompressedMd5Hash="ca7bfa08dc02b589acee66c34bbd25de" DownloadURL="" />
-    <VersionItem Path="FathomsDeep_Data\il2cpp_data\Resources\Microsoft.Extensions.Logging.Abstractions.dll-resources.dat" FileSize="476" Md5Hash="082f3aac17cb6eeb13756dc5598cb70d" CompressedFileSize="476" CompressedMd5Hash="082f3aac17cb6eeb13756dc5598cb70d" DownloadURL="" />
-    <VersionItem Path="FathomsDeep_Data\il2cpp_data\Resources\Microsoft.Extensions.Logging.dll-resources.dat" FileSize="478" Md5Hash="4cfc0c8ae02890443eef407778eda2c9" CompressedFileSize="478" CompressedMd5Hash="4cfc0c8ae02890443eef407778eda2c9" DownloadURL="" />
-    <VersionItem Path="FathomsDeep_Data\il2cpp_data\Resources\Microsoft.Extensions.Options.dll-resources.dat" FileSize="1212" Md5Hash="15331f49ad8bafc3879df09457935adf" CompressedFileSize="1212" CompressedMd5Hash="15331f49ad8bafc3879df09457935adf" DownloadURL="" />
-    <VersionItem Path="FathomsDeep_Data\il2cpp_data\Resources\Microsoft.Extensions.Primitives.dll-resources.dat" FileSize="1084" Md5Hash="8ccb5767c28a516492729b33baffa000" CompressedFileSize="1084" CompressedMd5Hash="8ccb5767c28a516492729b33baffa000" DownloadURL="" />
-    <VersionItem Path="FathomsDeep_Data\il2cpp_data\Resources\mscorlib.dll-resources.dat" FileSize="337563" Md5Hash="21d06dbc8af6432b2b49536ed30609af" CompressedFileSize="337563" CompressedMd5Hash="21d06dbc8af6432b2b49536ed30609af" DownloadURL="" />
-    <VersionItem Path="FathomsDeep_Data\il2cpp_data\Resources\R3.dll-resources.dat" FileSize="1096" Md5Hash="6debb743e246171a9d33d58f24ebf1a9" CompressedFileSize="1096" CompressedMd5Hash="6debb743e246171a9d33d58f24ebf1a9" DownloadURL="" />
-    <VersionItem Path="FathomsDeep_Data\il2cpp_data\Resources\System.ComponentModel.Annotations.dll-resources.dat" FileSize="9262" Md5Hash="dae84cfa9c28cde203318583643b8e6e" CompressedFileSize="9262" CompressedMd5Hash="dae84cfa9c28cde203318583643b8e6e" DownloadURL="" />
-    <VersionItem Path="FathomsDeep_Data\il2cpp_data\Resources\System.Diagnostics.DiagnosticSource.dll-resources.dat" FileSize="2236" Md5Hash="5b5fd9eae12871ef4c717202ffe166d3" CompressedFileSize="2236" CompressedMd5Hash="5b5fd9eae12871ef4c717202ffe166d3" DownloadURL="" />
-    <VersionItem Path="FathomsDeep_Data\il2cpp_data\Resources\System.IO.Pipelines.dll-resources.dat" FileSize="2294" Md5Hash="a9fb434a014d770bd02b1e280970786f" CompressedFileSize="2294" CompressedMd5Hash="a9fb434a014d770bd02b1e280970786f" DownloadURL="" />
-    <VersionItem Path="FathomsDeep_Data\il2cpp_data\Resources\System.Text.Encodings.Web.dll-resources.dat" FileSize="435" Md5Hash="3864ea059662c4cb5e2ceb312c19b74d" CompressedFileSize="435" CompressedMd5Hash="3864ea059662c4cb5e2ceb312c19b74d" DownloadURL="" />
-    <VersionItem Path="FathomsDeep_Data\il2cpp_data\Resources\System.Text.Json.dll-resources.dat" FileSize="33482" Md5Hash="cfd14a49592227034ceb37cb2af76e45" CompressedFileSize="33482" CompressedMd5Hash="cfd14a49592227034ceb37cb2af76e45" DownloadURL="" />
-    <VersionItem Path="FathomsDeep_Data\il2cpp_data\Resources\System.Threading.Channels.dll-resources.dat" FileSize="792" Md5Hash="4f651d83042798ce52b5603a318cccdd" CompressedFileSize="792" CompressedMd5Hash="4f651d83042798ce52b5603a318cccdd" DownloadURL="" />
-    <VersionItem Path="FathomsDeep_Data\Plugins\x86_64\lib_burst_generated.dll" FileSize="544256" Md5Hash="b90e12e09f0d3fea2c5c17907d63b1cb" CompressedFileSize="544256" CompressedMd5Hash="b90e12e09f0d3fea2c5c17907d63b1cb" DownloadURL="" />
-    <VersionItem Path="FathomsDeep_Data\Plugins\x86_64\NativePlugins.dll" FileSize="108032" Md5Hash="719cd6e2a1a933ef57f4a11705b24a5b" CompressedFileSize="108032" CompressedMd5Hash="719cd6e2a1a933ef57f4a11705b24a5b" DownloadURL="" />
-    <VersionItem Path="FathomsDeep_Data\Resources\unity default resources" FileSize="5923140" Md5Hash="fe6310e83edf92098ec231af6ee01909" CompressedFileSize="5923140" CompressedMd5Hash="fe6310e83edf92098ec231af6ee01909" DownloadURL="" />
-    <VersionItem Path="FathomsDeep_Data\Resources\unity_builtin_extra" FileSize="401928" Md5Hash="8f5f5030b90f01e0b5cd8b8f8751fb3f" CompressedFileSize="401928" CompressedMd5Hash="8f5f5030b90f01e0b5cd8b8f8751fb3f" DownloadURL="" />
+    <VersionItem Path="baselib.dll" FileSize="239536" Md5Hash="48269baa1cd07be1d3321edeadc9441a" CompressedFileSize="100859" CompressedMd5Hash="a671b8897330bba0031b037b252bd8ba" DownloadURL="" />
+    <VersionItem Path="FathomsDeep.exe" FileSize="667648" Md5Hash="26d232d9d185318fd3853efd7f6854e6" CompressedFileSize="133701" CompressedMd5Hash="a186db9727738b5c0ed1b21468c6a61a" DownloadURL="" />
+    <VersionItem Path="GameAssembly.dll" FileSize="87414272" Md5Hash="9296a7166edfff5df81329a2b6a14b84" CompressedFileSize="20604657" CompressedMd5Hash="ae765de024becd386e99007016d2e907" DownloadURL="" />
+    <VersionItem Path="UnityCrashHandler64.exe" FileSize="1609648" Md5Hash="96729d667f946848d5fa3cdf926ade47" CompressedFileSize="395335" CompressedMd5Hash="c00960e04c7ae531da31e3dd5b0aa6b0" DownloadURL="" />
+    <VersionItem Path="UnityPlayer.dll" FileSize="35739048" Md5Hash="63a605d7c7e22c4aca3edd63484fe85b" CompressedFileSize="11571873" CompressedMd5Hash="345bc06fc5a22d903c8174055c8e3442" DownloadURL="" />
+    <VersionItem Path="D3D12\D3D12Core.dll" FileSize="4725304" Md5Hash="8bed03240b764906c937c0d6ccd560ac" CompressedFileSize="1408762" CompressedMd5Hash="28f7d6e720021faf00a9c2034a180af8" DownloadURL="" />
+    <VersionItem Path="FathomsDeep_Data\app.info" FileSize="24" Md5Hash="56cb1a9f41ea377fc32f829544209e8f" CompressedFileSize="42" CompressedMd5Hash="094451d2e2676c399e01a41ca2eafe59" DownloadURL="" />
+    <VersionItem Path="FathomsDeep_Data\boot.config" FileSize="156" Md5Hash="4381e4681793b7ebf7545ba319c0516f" CompressedFileSize="150" CompressedMd5Hash="7ebc6f12464d45f460dfac70625c54ea" DownloadURL="" />
+    <VersionItem Path="FathomsDeep_Data\globalgamemanagers" FileSize="488452" Md5Hash="a884d52216d41c5b9d42530b3969d221" CompressedFileSize="134317" CompressedMd5Hash="9891015283dfbc832f48dc1f838459bd" DownloadURL="" />
+    <VersionItem Path="FathomsDeep_Data\globalgamemanagers.assets" FileSize="1542952" Md5Hash="d89ded944849f78ab5ed137efcb0ea02" CompressedFileSize="238157" CompressedMd5Hash="50dcd477ad1db603a4afb33fa07dd86c" DownloadURL="" />
+    <VersionItem Path="FathomsDeep_Data\globalgamemanagers.assets.resS" FileSize="5716192" Md5Hash="a753228c12ced77d4beb8b3077f459c8" CompressedFileSize="1264103" CompressedMd5Hash="951bbabe5dad5a1c0270d5e0e17f5acc" DownloadURL="" />
+    <VersionItem Path="FathomsDeep_Data\level0" FileSize="12100" Md5Hash="6ea2b05f1c41f1d84c3c3a2a0a2b2f4f" CompressedFileSize="3409" CompressedMd5Hash="ce11d10e5bcaf75807c0b4a080b35ec0" DownloadURL="" />
+    <VersionItem Path="FathomsDeep_Data\level1" FileSize="2812824" Md5Hash="377d2f73f50b32bef6e19a1d7cd60a88" CompressedFileSize="94947" CompressedMd5Hash="f4cce638429b8e22a90e65101a709cdc" DownloadURL="" />
+    <VersionItem Path="FathomsDeep_Data\level2" FileSize="93404" Md5Hash="9d1fbb176ce878698d5ede6632bf5aab" CompressedFileSize="10664" CompressedMd5Hash="e39e8026b1d0b81ecd12f98ce6f7c151" DownloadURL="" />
+    <VersionItem Path="FathomsDeep_Data\level2.resS" FileSize="1920" Md5Hash="5d8cf723090cf27c0f58ec162d939f0c" CompressedFileSize="288" CompressedMd5Hash="035b1e48375a5528fb5a6b73208b06bb" DownloadURL="" />
+    <VersionItem Path="FathomsDeep_Data\resources.assets" FileSize="3114612" Md5Hash="6cf6f2500ddb1d17b393812bcbf2d5e0" CompressedFileSize="580856" CompressedMd5Hash="0c52ae8182791e04c8e24d054ebb8de4" DownloadURL="" />
+    <VersionItem Path="FathomsDeep_Data\resources.assets.resS" FileSize="35906384" Md5Hash="2442c6149b0b73dc5f97b1b2bf14c98e" CompressedFileSize="8722373" CompressedMd5Hash="4ba4893ea4af6fb7e8b48a7b8bc9b63c" DownloadURL="" />
+    <VersionItem Path="FathomsDeep_Data\resources.resource" FileSize="2458176" Md5Hash="e1ec1f8333fdab8dda1e32ddf8ebe498" CompressedFileSize="2456313" CompressedMd5Hash="c3f9908aaf307692a73d55165859df7e" DownloadURL="" />
+    <VersionItem Path="FathomsDeep_Data\RuntimeInitializeOnLoads.json" FileSize="20784" Md5Hash="b3ed384a32b53786d2fd262de1c26ca9" CompressedFileSize="1991" CompressedMd5Hash="bee901fc51e074b1af527452a0afc4a1" DownloadURL="" />
+    <VersionItem Path="FathomsDeep_Data\ScriptingAssemblies.json" FileSize="6831" Md5Hash="7e9866f89ee9fb7ff937f17997e06c33" CompressedFileSize="1542" CompressedMd5Hash="21a6425a9197199cfe235a7331f8768c" DownloadURL="" />
+    <VersionItem Path="FathomsDeep_Data\sharedassets0.assets" FileSize="7639400" Md5Hash="8d98caeb6e8fac4c44f9ff3ec4bebfd3" CompressedFileSize="2013356" CompressedMd5Hash="9aebeb9753e659e306a66fbabbfa5fb4" DownloadURL="" />
+    <VersionItem Path="FathomsDeep_Data\sharedassets0.assets.resS" FileSize="221512256" Md5Hash="2b26082a84986f48994e3a57ec98e1bc" CompressedFileSize="51985038" CompressedMd5Hash="389b61484afc753bfbd29a319575d85a" DownloadURL="" />
+    <VersionItem Path="FathomsDeep_Data\sharedassets0.resource" FileSize="11534112" Md5Hash="c9cc5107a3d5278b0a4df9a877094c12" CompressedFileSize="11541382" CompressedMd5Hash="958e7cb00000754acbf8c826f8b25656" DownloadURL="" />
+    <VersionItem Path="FathomsDeep_Data\sharedassets1.assets" FileSize="171784" Md5Hash="38ba01490df8c839d2626d9f434bcabf" CompressedFileSize="8988" CompressedMd5Hash="29e2230ec7458fe669efd26c9f65b07b" DownloadURL="" />
+    <VersionItem Path="FathomsDeep_Data\sharedassets1.assets.resS" FileSize="11316096" Md5Hash="9522cb71b730d19203e76c6c4055dabb" CompressedFileSize="789439" CompressedMd5Hash="e87af9507687632288ff3abf464169ec" DownloadURL="" />
+    <VersionItem Path="FathomsDeep_Data\sharedassets2.assets" FileSize="16120" Md5Hash="9b35a59f560b071fbaabbbe199968901" CompressedFileSize="1380" CompressedMd5Hash="7ab8da3fdabfb5758d6ac7e975902660" DownloadURL="" />
+    <VersionItem Path="FathomsDeep_Data\il2cpp_data\Metadata\global-metadata.dat" FileSize="23471120" Md5Hash="e9c439f8d8f65fddcb94db4e2d2dbceb" CompressedFileSize="6712533" CompressedMd5Hash="1d48bf0accfaae409c91af3913bf22d4" DownloadURL="" />
+    <VersionItem Path="FathomsDeep_Data\il2cpp_data\Resources\Microsoft.Bcl.TimeProvider.dll-resources.dat" FileSize="1106" Md5Hash="0adf4f0ee226b8cf29211b95285cfe73" CompressedFileSize="552" CompressedMd5Hash="7ad7365cc69fda66cc8c508d860d9a2c" DownloadURL="" />
+    <VersionItem Path="FathomsDeep_Data\il2cpp_data\Resources\Microsoft.Extensions.Configuration.Abstractions.dll-resources.dat" FileSize="360" Md5Hash="98cc72c4cc1cb32f40d154b3b02a7cd6" CompressedFileSize="268" CompressedMd5Hash="3528588a4b41a662c2da06f82db8ec7a" DownloadURL="" />
+    <VersionItem Path="FathomsDeep_Data\il2cpp_data\Resources\Microsoft.Extensions.DependencyInjection.Abstractions.dll-resources.dat" FileSize="2599" Md5Hash="09568fffbd093229c460ca6101561a71" CompressedFileSize="1149" CompressedMd5Hash="edc67957893b76abecaae5373145d850" DownloadURL="" />
+    <VersionItem Path="FathomsDeep_Data\il2cpp_data\Resources\Microsoft.Extensions.DependencyInjection.dll-resources.dat" FileSize="4294" Md5Hash="ca7bfa08dc02b589acee66c34bbd25de" CompressedFileSize="1703" CompressedMd5Hash="2b6bce8a70d2f5ac9340f54ec0543ff6" DownloadURL="" />
+    <VersionItem Path="FathomsDeep_Data\il2cpp_data\Resources\Microsoft.Extensions.Logging.Abstractions.dll-resources.dat" FileSize="476" Md5Hash="082f3aac17cb6eeb13756dc5598cb70d" CompressedFileSize="340" CompressedMd5Hash="11bbffbd2095c6419fe960e8d5850b67" DownloadURL="" />
+    <VersionItem Path="FathomsDeep_Data\il2cpp_data\Resources\Microsoft.Extensions.Logging.dll-resources.dat" FileSize="478" Md5Hash="4cfc0c8ae02890443eef407778eda2c9" CompressedFileSize="361" CompressedMd5Hash="d3a37ea9dbc24d126ac3c3e4dd0ddf8c" DownloadURL="" />
+    <VersionItem Path="FathomsDeep_Data\il2cpp_data\Resources\Microsoft.Extensions.Options.dll-resources.dat" FileSize="1212" Md5Hash="15331f49ad8bafc3879df09457935adf" CompressedFileSize="604" CompressedMd5Hash="9f6a8a4125e6fa9ef8421958e1b975ff" DownloadURL="" />
+    <VersionItem Path="FathomsDeep_Data\il2cpp_data\Resources\Microsoft.Extensions.Primitives.dll-resources.dat" FileSize="1084" Md5Hash="8ccb5767c28a516492729b33baffa000" CompressedFileSize="591" CompressedMd5Hash="8743621c72dae040aef9c68ebbe73ad6" DownloadURL="" />
+    <VersionItem Path="FathomsDeep_Data\il2cpp_data\Resources\mscorlib.dll-resources.dat" FileSize="337563" Md5Hash="21d06dbc8af6432b2b49536ed30609af" CompressedFileSize="110093" CompressedMd5Hash="ca061b2407c8257c0f4622c6c1ba63b7" DownloadURL="" />
+    <VersionItem Path="FathomsDeep_Data\il2cpp_data\Resources\R3.dll-resources.dat" FileSize="1096" Md5Hash="6debb743e246171a9d33d58f24ebf1a9" CompressedFileSize="707" CompressedMd5Hash="00068e35c5967cc8cc759c8791bc0705" DownloadURL="" />
+    <VersionItem Path="FathomsDeep_Data\il2cpp_data\Resources\System.ComponentModel.Annotations.dll-resources.dat" FileSize="9262" Md5Hash="dae84cfa9c28cde203318583643b8e6e" CompressedFileSize="2985" CompressedMd5Hash="a9be8f988bf3851a9d2fd33eabefaac7" DownloadURL="" />
+    <VersionItem Path="FathomsDeep_Data\il2cpp_data\Resources\System.Diagnostics.DiagnosticSource.dll-resources.dat" FileSize="2236" Md5Hash="5b5fd9eae12871ef4c717202ffe166d3" CompressedFileSize="1126" CompressedMd5Hash="013c1c6b4062c64407e019444e120f92" DownloadURL="" />
+    <VersionItem Path="FathomsDeep_Data\il2cpp_data\Resources\System.IO.Pipelines.dll-resources.dat" FileSize="2294" Md5Hash="a9fb434a014d770bd02b1e280970786f" CompressedFileSize="1101" CompressedMd5Hash="d136cd522c015b2f75b3f0d5c236baf5" DownloadURL="" />
+    <VersionItem Path="FathomsDeep_Data\il2cpp_data\Resources\System.Text.Encodings.Web.dll-resources.dat" FileSize="435" Md5Hash="3864ea059662c4cb5e2ceb312c19b74d" CompressedFileSize="313" CompressedMd5Hash="3eb7da740164589a041331c8fc79f58e" DownloadURL="" />
+    <VersionItem Path="FathomsDeep_Data\il2cpp_data\Resources\System.Text.Json.dll-resources.dat" FileSize="33482" Md5Hash="cfd14a49592227034ceb37cb2af76e45" CompressedFileSize="9570" CompressedMd5Hash="ce44429666a5eeb104f07e2a6e8a32e5" DownloadURL="" />
+    <VersionItem Path="FathomsDeep_Data\il2cpp_data\Resources\System.Threading.Channels.dll-resources.dat" FileSize="792" Md5Hash="4f651d83042798ce52b5603a318cccdd" CompressedFileSize="472" CompressedMd5Hash="c4f626af331ae8d83962d8a0e9d2adac" DownloadURL="" />
+    <VersionItem Path="FathomsDeep_Data\Plugins\x86_64\lib_burst_generated.dll" FileSize="544256" Md5Hash="97a1023400e120539d377de1b89b0ca2" CompressedFileSize="179303" CompressedMd5Hash="705bfdc6d0742a4715f965adc6e53c9e" DownloadURL="" />
+    <VersionItem Path="FathomsDeep_Data\Plugins\x86_64\NativePlugins.dll" FileSize="108032" Md5Hash="719cd6e2a1a933ef57f4a11705b24a5b" CompressedFileSize="42535" CompressedMd5Hash="66ee6b49f9e92d2e04964ca06ea1da1e" DownloadURL="" />
+    <VersionItem Path="FathomsDeep_Data\Resources\unity default resources" FileSize="5923140" Md5Hash="fe6310e83edf92098ec231af6ee01909" CompressedFileSize="440899" CompressedMd5Hash="e903b85c3e8b750c588f84a68464612e" DownloadURL="" />
+    <VersionItem Path="FathomsDeep_Data\Resources\unity_builtin_extra" FileSize="401928" Md5Hash="8f5f5030b90f01e0b5cd8b8f8751fb3f" CompressedFileSize="72744" CompressedMd5Hash="1140238e3cb0eba4460729d986ee58d4" DownloadURL="" />
   </Files>
-  <Name>App</Name>
+  <Name>FathomsDeep</Name>
 </VersionInfo>
